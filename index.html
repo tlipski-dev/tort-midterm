@@ -51,14 +51,15 @@ let QUESTIONS = [];
 let score = 0;
 let attempted = 0;
 
-// Per-question results history across the session (not tied to index because of random order)
+// Track results for study suggestions
 let history = []; // entries: { topic, correct }
 
-// Track which indices have been used in this cycle to avoid immediate repeats
-let usedIndices = new Set();
+// Indices of questions the user has MASTERED this session (got correct at least once)
+let mastered = new Set();
 
 // Current question state
 let currentIndex = null; // index into QUESTIONS
+let lastIndex = null;    // to avoid immediate repeats on wrongs
 let answered = false;
 
 const quizEl = document.getElementById('quiz');
@@ -85,14 +86,40 @@ async function loadQuestions() {
 function resetSession() {
   score = 0;
   attempted = 0;
-  usedIndices.clear();
+  mastered.clear();
   history = [];
+  currentIndex = null;
+  lastIndex = null;
+  answered = false;
+
   scoreEl.textContent = score;
   totalEl.textContent = attempted;
   studyPanel.style.display = 'none';
   studyContent.textContent = 'Answer some questions first, then click “Show study topics.”';
   studyContent.classList.add('muted');
+
   renderRandomQuestion();
+}
+
+function getCandidateIndices() {
+  // All indices not yet mastered
+  const candidates = [];
+  for (let i = 0; i < QUESTIONS.length; i++) {
+    if (!mastered.has(i)) candidates.push(i);
+  }
+  return candidates;
+}
+
+function pickRandomIndex(candidates) {
+  if (candidates.length === 0) return null;
+  if (candidates.length === 1) return candidates[0];
+
+  // Avoid immediate repeat of the last shown question if possible
+  let idx;
+  do {
+    idx = candidates[Math.floor(Math.random() * candidates.length)];
+  } while (idx === lastIndex && candidates.length > 1);
+  return idx;
 }
 
 function renderRandomQuestion() {
@@ -101,18 +128,20 @@ function renderRandomQuestion() {
     return;
   }
 
-  // If we’ve exhausted all questions this cycle, start a new cycle
-  if (usedIndices.size === QUESTIONS.length) usedIndices.clear();
+  const candidates = getCandidateIndices();
 
-  // Pick a random new index not in usedIndices
-  let idx;
-  const startGuard = performance.now();
-  do {
-    idx = Math.floor(Math.random() * QUESTIONS.length);
-    // guard in pathological cases
-    if (performance.now() - startGuard > 50) break;
-  } while (usedIndices.has(idx));
-  usedIndices.add(idx);
+  if (candidates.length === 0) {
+    // All mastered!
+    quizEl.innerHTML = `
+      <div class="card">
+        <h3>Session complete 🎉</h3>
+        <p>You’ve answered all ${QUESTIONS.length} questions correctly at least once this session.</p>
+        <p>Click <strong>Reset session</strong> to start over.</p>
+      </div>`;
+    return;
+  }
+
+  const idx = pickRandomIndex(candidates);
   currentIndex = idx;
   answered = false;
 
@@ -162,9 +191,12 @@ function onChoose(card, btn, isCorrect, q) {
     fb.classList.add('ok');
     fb.innerHTML = `<strong>Correct!</strong><br>${q.explanation || ''}`;
     score++;
+    // Mark this index as MASTERED so it won't reappear this session
+    mastered.add(currentIndex);
   } else {
     fb.classList.add('no');
     fb.innerHTML = `<strong>Incorrect.</strong> Correct answer: <em>${(q.choices || q.options)[ansIdx]}</em><br>${q.explanation || ''}`;
+    // Do NOT add to mastered; it can show again later
   }
 
   attempted++;
@@ -173,6 +205,7 @@ function onChoose(card, btn, isCorrect, q) {
 
   history.push({ topic: q.topic || 'General', correct: isCorrect });
   answered = true;
+  lastIndex = currentIndex;
 }
 
 revealBtn.addEventListener('click', () => {
@@ -188,8 +221,9 @@ revealBtn.addEventListener('click', () => {
   fb.style.display = 'block';
   fb.classList.remove('no'); fb.classList.add('ok');
   fb.innerHTML = `<strong>Answer:</strong> <em>${(q.choices || q.options)[ansIdx]}</em><br>${q.explanation || ''}`;
-  // Note: reveal does not change score/attempted/history
+  // Reveal DOES NOT mark as mastered or change score/attempt
   answered = true;
+  lastIndex = currentIndex;
 });
 
 nextBtn.addEventListener('click', () => {
