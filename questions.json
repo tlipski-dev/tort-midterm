@@ -1,806 +1,554 @@
 [
   {
-    "question": "Which is NOT required for negligence?",
+    "question": "Which element is NOT required for negligence?",
     "choices": [
-      "Breach is not required.",
-      "Duty is not required.",
+      "Intent is not required.",
       "Causation is not required.",
-      "Intent is not required; negligence requires duty, breach, causation, and damages."
+      "Duty is not required.",
+      "Breach is not required."
     ],
-    "answer_index": 3,
-    "explanation": "Negligence requires duty, breach, causation (actual and proximate), and damages; intent is for intentional torts.",
+    "answer_index": 0,
+    "explanation": "Negligence requires duty, breach, causation, and damages; intent applies to intentional torts.",
     "topic": "Negligence Elements"
   },
   {
-    "question": "What four components make up a prima facie negligence claim?",
+    "question": "Who decides whether duty exists in negligence?",
     "choices": [
-      "Duty, breach, causation, and punitive damages.",
-      "Duty, intent, causation, and damages.",
-      "Duty, breach, causation, and damages.",
-      "Intent, breach, consent, and damages."
+      "The judge decides as a matter of law.",
+      "The jury always decides.",
+      "The defendant decides.",
+      "The plaintiff decides."
     ],
-    "answer_index": 2,
-    "explanation": "Duty, breach, causation, and damages.",
-    "topic": "Negligence Elements"
+    "answer_index": 0,
+    "explanation": "The judge decides as a matter of law.",
+    "topic": "Duty"
   },
   {
-    "question": "What does the plaintiff have to prove about causation in negligence?",
+    "question": "Is there a general duty to rescue strangers at common law?",
     "choices": [
-      "Only actual causation.",
-      "Neither, if damages are high.",
-      "Only proximate causation.",
-      "Both actual (factual) causation and proximate (scope-of-risk) causation."
-    ],
-    "answer_index": 3,
-    "explanation": "Both actual (factual) causation and proximate (scope-of-risk) causation.",
-    "topic": "Negligence Elements"
-  },
-  {
-    "question": "Is there a general duty to rescue a stranger in peril at common law?",
-    "choices": [
+      "No, unless a special relationship, creation of peril, or voluntary undertaking exists.",
+      "Yes, if easy.",
       "Yes, always.",
-      "Yes, if the rescue is easy.",
-      "No general duty to rescue; duties arise from special relationships, creating the peril, or voluntary undertakings.",
-      "Yes, when the harm is foreseeable."
-    ],
-    "answer_index": 2,
-    "explanation": "No general duty to rescue; duties arise from special relationships, creating the peril, or voluntary undertakings.",
-    "topic": "Duty"
-  },
-  {
-    "question": "Who decides whether a duty exists in a negligence action?",
-    "choices": [
-      "The jury decides duty as a fact question.",
-      "The parties stipulate duty.",
-      "Duty is always presumed.",
-      "The judge decides duty as a question of law."
-    ],
-    "answer_index": 3,
-    "explanation": "The judge decides duty as a question of law.",
-    "topic": "Duty"
-  },
-  {
-    "question": "Which relationship most clearly creates a duty to aid or protect?",
-    "choices": [
-      "Neighbor to neighbor.",
-      "Student to student.",
-      "Bystander to stranger.",
-      "Common carrier to passenger."
-    ],
-    "answer_index": 3,
-    "explanation": "Common carrier to passenger.",
-    "topic": "Duty"
-  },
-  {
-    "question": "What duty arises once someone voluntarily begins a rescue?",
-    "choices": [
-      "A duty to finish the rescue regardless of risk.",
-      "No duty at all.",
-      "A duty to exercise reasonable care in carrying out the rescue.",
-      "Only a duty to call 911."
-    ],
-    "answer_index": 2,
-    "explanation": "A duty to exercise reasonable care in carrying out the rescue.",
-    "topic": "Duty"
-  },
-  {
-    "question": "Does mere foreseeability alone create an affirmative duty to act?",
-    "choices": [
-      "Yes; foreseeability always creates duty.",
-      "Yes, when damages might be large.",
-      "No; foreseeability informs breach and proximate cause but does not by itself create a duty to rescue.",
-      "Yes, if a warning would be easy."
-    ],
-    "answer_index": 2,
-    "explanation": "No; foreseeability informs breach and proximate cause but does not by itself create a duty to rescue.",
-    "topic": "Duty"
-  },
-  {
-    "question": "How is breach of duty measured in ordinary negligence?",
-    "choices": [
-      "By the objective reasonable person standard under the circumstances.",
-      "By industry profit standards.",
-      "By defendant’s personal judgment.",
-      "By strict liability."
+      "Yes, if harm is foreseeable."
     ],
     "answer_index": 0,
-    "explanation": "By the objective reasonable person standard under the circumstances.",
-    "topic": "Breach"
+    "explanation": "No, unless a special relationship, creation of peril, or voluntary undertaking exists.",
+    "topic": "Duty"
   },
   {
-    "question": "How should courts treat evidence of industry custom in breach analysis?",
+    "question": "Traditional duty to trespassers requires landowner to:",
     "choices": [
-      "Custom is irrelevant.",
-      "Custom automatically creates strict liability.",
-      "Custom is some evidence of reasonable care but is not conclusive.",
-      "Custom conclusively establishes due care."
-    ],
-    "answer_index": 2,
-    "explanation": "Custom is some evidence of reasonable care but is not conclusive.",
-    "topic": "Breach"
-  },
-  {
-    "question": "What does the B < P×L balancing capture?",
-    "choices": [
-      "It is a damages formula.",
-      "If burden is greater than P×L, breach is certain.",
-      "It measures proximate cause.",
-      "If the burden of precautions is less than the probability of harm times the loss, failing to take the precaution suggests breach."
+      "Warn of all hidden dangers.",
+      "Exercise ordinary care.",
+      "Provide strict liability.",
+      "Refrain from willful or wanton misconduct."
     ],
     "answer_index": 3,
-    "explanation": "If the burden of precautions is less than the probability of harm times the loss, failing to take the precaution suggests breach.",
-    "topic": "Breach"
-  },
-  {
-    "question": "How does the emergency doctrine affect the reasonable person standard?",
-    "choices": [
-      "It decides damages automatically.",
-      "It converts negligence into strict liability.",
-      "It excuses all conduct in emergencies.",
-      "It considers the emergency circumstances when evaluating reasonableness."
-    ],
-    "answer_index": 3,
-    "explanation": "It considers the emergency circumstances when evaluating reasonableness.",
-    "topic": "Breach"
-  },
-  {
-    "question": "How is the standard of care for professionals set?",
-    "choices": [
-      "By the local jury’s intuition only.",
-      "By the general public’s expectations.",
-      "By the knowledge and skill of a reasonably prudent professional in that field.",
-      "By the professional’s personal best."
-    ],
-    "answer_index": 2,
-    "explanation": "By the knowledge and skill of a reasonably prudent professional in that field.",
-    "topic": "Breach"
-  },
-  {
-    "question": "Does compliance with a statute automatically foreclose breach?",
-    "choices": [
-      "Yes, unless damages are severe.",
-      "Only if the statute is criminal.",
-      "Yes; compliance bars negligence.",
-      "No; statutory compliance is evidence of due care but does not preclude negligence if reasonable care required more."
-    ],
-    "answer_index": 3,
-    "explanation": "No; statutory compliance is evidence of due care but does not preclude negligence if reasonable care required more.",
-    "topic": "Breach"
-  },
-  {
-    "question": "Traditional duty owed to a trespasser is to:",
-    "choices": [
-      "Refrain from willful or wanton misconduct.",
-      "Exercise ordinary care in all respects.",
-      "Rescue them in all cases.",
-      "Warn of all hidden dangers."
-    ],
-    "answer_index": 0,
     "explanation": "Refrain from willful or wanton misconduct.",
     "topic": "Premises Liability"
   },
   {
-    "question": "Duty owed to a licensee (social guest) generally requires the landowner to:",
+    "question": "Duty owed to invitees requires:",
     "choices": [
-      "Provide strict liability for defects.",
-      "Warn of known hidden dangers not likely to be discovered.",
-      "Owe no duty at all.",
-      "Inspect and make safe as to all dangers."
+      "Perfect safety guaranteed.",
+      "Only warn of known hazards.",
+      "No duty owed.",
+      "Reasonable care to inspect and make safe hazards."
+    ],
+    "answer_index": 3,
+    "explanation": "Reasonable care to inspect and make safe hazards.",
+    "topic": "Premises Liability"
+  },
+  {
+    "question": "Hand formula (B < P×L) illustrates:",
+    "choices": [
+      "Punitive damages formula.",
+      "Negligence when burden is less than probability times loss.",
+      "Duty creation rule.",
+      "Strict liability rule."
     ],
     "answer_index": 1,
-    "explanation": "Warn of known hidden dangers not likely to be discovered.",
-    "topic": "Premises Liability"
+    "explanation": "Negligence when burden is less than probability times loss.",
+    "topic": "Breach"
   },
   {
-    "question": "Duty owed to an invitee (customer) generally requires the landowner to:",
+    "question": "Industry custom in breach analysis is:",
     "choices": [
-      "Only warn of dangers actually known.",
-      "Provide absolute safety.",
-      "Treat as trespassers.",
-      "Use reasonable care to discover and make safe hazards (including reasonable inspections)."
-    ],
-    "answer_index": 3,
-    "explanation": "Use reasonable care to discover and make safe hazards (including reasonable inspections).",
-    "topic": "Premises Liability"
-  },
-  {
-    "question": "Attractive nuisance largely protects:",
-    "choices": [
-      "Adult trespassers only.",
-      "Only invitees.",
-      "Child trespassers drawn by a dangerous artificial condition.",
-      "All licensees equally."
-    ],
-    "answer_index": 2,
-    "explanation": "Child trespassers drawn by a dangerous artificial condition.",
-    "topic": "Premises Liability"
-  },
-  {
-    "question": "What does the but-for test ask?",
-    "choices": [
-      "Whether a statute was violated.",
-      "Whether damages are high.",
-      "Whether the harm was foreseeable.",
-      "Whether the harm would have occurred absent the defendant’s conduct."
-    ],
-    "answer_index": 3,
-    "explanation": "Whether the harm would have occurred absent the defendant’s conduct.",
-    "topic": "Actual Causation"
-  },
-  {
-    "question": "When two negligent acts are each independently sufficient to cause the harm, courts typically:",
-    "choices": [
-      "Treat each act as an actual cause despite the failure of but-for causation.",
-      "Find neither actor to be a cause.",
-      "Pick the earlier in time.",
-      "Bar recovery entirely."
+      "Evidence but not conclusive of reasonable care.",
+      "Creates strict liability.",
+      "Conclusive of reasonable care.",
+      "Irrelevant."
     ],
     "answer_index": 0,
-    "explanation": "Treat each act as an actual cause despite the failure of but-for causation.",
-    "topic": "Actual Causation"
+    "explanation": "Evidence but not conclusive of reasonable care.",
+    "topic": "Breach"
   },
   {
-    "question": "Loss-of-chance jurisdictions permit recovery when:",
+    "question": "Reasonable person standard is:",
     "choices": [
-      "The defendant’s negligence reduced the patient’s chance of a better outcome, even if below 50%.",
-      "There is no duty.",
-      "Damages are purely emotional.",
-      "The plaintiff cannot show any causation."
-    ],
-    "answer_index": 0,
-    "explanation": "The defendant’s negligence reduced the patient’s chance of a better outcome, even if below 50%.",
-    "topic": "Actual Causation"
-  },
-  {
-    "question": "Under the scope-of-risk approach, proximate cause limits liability to:",
-    "choices": [
-      "Harms that result from the very risks that made the conduct negligent.",
-      "Any harm so long as the defendant is negligent.",
-      "Only direct harms without intervening acts.",
-      "All harms that are imaginable."
-    ],
-    "answer_index": 0,
-    "explanation": "Harms that result from the very risks that made the conduct negligent.",
-    "topic": "Proximate Cause"
-  },
-  {
-    "question": "An intervening act becomes superseding when it:",
-    "choices": [
-      "Is criminal in any way.",
-      "Increases damages beyond $100,000.",
-      "Occurs later in time.",
-      "Is outside the scope of the risk that made the defendant’s conduct negligent."
+      "Strict liability.",
+      "Measured by intent only.",
+      "Subjective to defendant.",
+      "Objective measure under circumstances."
     ],
     "answer_index": 3,
-    "explanation": "Is outside the scope of the risk that made the defendant’s conduct negligent.",
-    "topic": "Proximate Cause"
+    "explanation": "Objective measure under circumstances.",
+    "topic": "Breach"
   },
   {
-    "question": "If a thief steals a negligently unattended car and injures someone during immediate flight nearby, liability is:",
+    "question": "Emergency doctrine affects standard by:",
     "choices": [
-      "Never within scope because of third-party acts.",
-      "Only within scope if the car is insured.",
-      "Often within scope of risk; theft-and-flight injuries can be foreseeable consequences of leaving keys in an unattended vehicle.",
-      "Always superseding because crime breaks causation."
-    ],
-    "answer_index": 2,
-    "explanation": "Often within scope of risk; theft-and-flight injuries can be foreseeable consequences of leaving keys in an unattended vehicle.",
-    "topic": "Proximate Cause"
-  },
-  {
-    "question": "Eggshell plaintiff (thin skull) rule means the defendant:",
-    "choices": [
-      "Is liable only for foreseeable severity.",
-      "Takes the plaintiff as found and is liable for full extent of harm even if unexpectedly severe.",
-      "Is only liable for average harm.",
-      "Owes no duty to unusually fragile plaintiffs."
+      "Imposing strict liability.",
+      "Considering emergency circumstances.",
+      "Excusing all negligence.",
+      "Eliminating duty."
     ],
     "answer_index": 1,
-    "explanation": "Takes the plaintiff as found and is liable for full extent of harm even if unexpectedly severe.",
+    "explanation": "Considering emergency circumstances.",
+    "topic": "Breach"
+  },
+  {
+    "question": "But-for test is used to prove:",
+    "choices": [
+      "Damages.",
+      "Factual causation.",
+      "Proximate cause.",
+      "Duty."
+    ],
+    "answer_index": 1,
+    "explanation": "Factual causation.",
+    "topic": "Actual Causation"
+  },
+  {
+    "question": "When two sufficient causes exist:",
+    "choices": [
+      "Neither is cause.",
+      "Only first counts.",
+      "Plaintiff recovers nothing.",
+      "Each is treated as actual cause."
+    ],
+    "answer_index": 3,
+    "explanation": "Each is treated as actual cause.",
+    "topic": "Actual Causation"
+  },
+  {
+    "question": "Eggshell plaintiff rule means:",
+    "choices": [
+      "Liable only for foreseeable severity.",
+      "Defendant liable for full extent of harm even if unforeseeable.",
+      "No liability to fragile plaintiffs.",
+      "Liable only for average harm."
+    ],
+    "answer_index": 1,
+    "explanation": "Defendant liable for full extent of harm even if unforeseeable.",
     "topic": "Proximate Cause"
   },
   {
-    "question": "Res Ipsa Loquitur permits what inference?",
+    "question": "Scope-of-risk proximate cause limits liability to:",
     "choices": [
-      "That intent is proven.",
-      "That damages are presumed.",
-      "That negligence occurred when the accident ordinarily does not happen without negligence and the instrumentality was under the defendant’s control.",
-      "That strict liability applies."
+      "All harms, foreseeable or not.",
+      "Harms within risks that made conduct negligent.",
+      "All foreseeable harms.",
+      "Only direct harms."
     ],
-    "answer_index": 2,
-    "explanation": "That negligence occurred when the accident ordinarily does not happen without negligence and the instrumentality was under the defendant’s control.",
+    "answer_index": 1,
+    "explanation": "Harms within risks that made conduct negligent.",
+    "topic": "Proximate Cause"
+  },
+  {
+    "question": "Intervening act is superseding when:",
+    "choices": [
+      "It is outside scope of risks that made defendant’s conduct negligent.",
+      "Always if later in time.",
+      "Always if damages increase.",
+      "Always if criminal."
+    ],
+    "answer_index": 0,
+    "explanation": "It is outside scope of risks that made defendant’s conduct negligent.",
+    "topic": "Proximate Cause"
+  },
+  {
+    "question": "Res Ipsa Loquitur permits:",
+    "choices": [
+      "Inference of negligence from nature of accident under defendant’s control.",
+      "Conclusive proof of negligence.",
+      "Strict liability.",
+      "Proof of intent."
+    ],
+    "answer_index": 0,
+    "explanation": "Inference of negligence from nature of accident under defendant’s control.",
     "topic": "Res Ipsa Loquitur"
   },
   {
-    "question": "Negligence per se substitutes a statutory standard when:",
+    "question": "Negligence per se applies if:",
     "choices": [
-      "The defendant acted in good faith.",
-      "Damages are large.",
+      "Defendant is wealthy.",
       "Any statute is violated.",
-      "The statute was designed to protect the class of persons and the type of harm suffered by the plaintiff."
+      "Damages are severe.",
+      "Statute protects class and type of harm suffered."
     ],
     "answer_index": 3,
-    "explanation": "The statute was designed to protect the class of persons and the type of harm suffered by the plaintiff.",
+    "explanation": "Statute protects class and type of harm suffered.",
     "topic": "Negligence Per Se"
   },
   {
-    "question": "Negligence per se does not apply when:",
+    "question": "Negligence per se not applicable when:",
     "choices": [
-      "The statute is safety-related.",
-      "The defendant later fixed the issue.",
-      "The plaintiff is outside the protected class or the harm is outside the statute’s protective purpose.",
-      "The violation is accidental."
+      "Defendant fixed violation later.",
+      "Statute is safety-related.",
+      "Plaintiff outside protected class or harm not type statute covers.",
+      "Violation accidental."
     ],
     "answer_index": 2,
-    "explanation": "The plaintiff is outside the protected class or the harm is outside the statute’s protective purpose.",
+    "explanation": "Plaintiff outside protected class or harm not type statute covers.",
     "topic": "Negligence Per Se"
   },
   {
-    "question": "Alternative liability addresses which situation?",
+    "question": "Alternative liability applies when:",
     "choices": [
-      "Harm is divisible by time.",
-      "Products are fungible across a market.",
-      "All defendants were negligent but only one caused the harm; the burden shifts to defendants to disprove causation.",
-      "Two sufficient causes operated simultaneously."
-    ],
-    "answer_index": 2,
-    "explanation": "All defendants were negligent but only one caused the harm; the burden shifts to defendants to disprove causation.",
-    "topic": "Causation & Apportionment"
-  },
-  {
-    "question": "Joint and several liability allows the plaintiff to:",
-    "choices": [
-      "Recover 100% of indivisible damages from any one defendant.",
-      "Recover only each defendant’s share from each.",
-      "Recover double damages.",
-      "Recover none if one defendant is insolvent."
-    ],
-    "answer_index": 0,
-    "explanation": "Recover 100% of indivisible damages from any one defendant.",
-    "topic": "Causation & Apportionment"
-  },
-  {
-    "question": "Market share liability is most appropriate when:",
-    "choices": [
-      "There is perfect proof of identity.",
-      "The product is fungible and the specific manufacturer cannot be identified; damages are allocated by market share.",
-      "The harm is divisible by days.",
-      "Defendants acted intentionally."
+      "Products fungible.",
+      "All defendants negligent but only one caused harm.",
+      "Two sufficient causes exist.",
+      "Damages are speculative."
     ],
     "answer_index": 1,
-    "explanation": "The product is fungible and the specific manufacturer cannot be identified; damages are allocated by market share.",
+    "explanation": "All defendants negligent but only one caused harm.",
     "topic": "Causation & Apportionment"
   },
   {
-    "question": "Under pure comparative negligence, a plaintiff 30% at fault recovers:",
+    "question": "Joint and several liability allows:",
     "choices": [
-      "70% of damages.",
-      "Nothing; recovery is barred.",
-      "100% of damages.",
-      "30% of damages."
+      "Only proportional shares.",
+      "Recovery of full damages from any one defendant.",
+      "Double damages.",
+      "None if others insolvent."
     ],
-    "answer_index": 0,
-    "explanation": "70% of damages.",
+    "answer_index": 1,
+    "explanation": "Recovery of full damages from any one defendant.",
+    "topic": "Causation & Apportionment"
+  },
+  {
+    "question": "Market share liability applies when:",
+    "choices": [
+      "Intentional torts.",
+      "Fungible products, manufacturer cannot be identified.",
+      "Unique products.",
+      "Premises liability."
+    ],
+    "answer_index": 1,
+    "explanation": "Fungible products, manufacturer cannot be identified.",
+    "topic": "Causation & Apportionment"
+  },
+  {
+    "question": "Pure comparative negligence means:",
+    "choices": [
+      "No recovery if any fault.",
+      "Recovery only if <50% at fault.",
+      "Full recovery regardless.",
+      "Plaintiff recovers reduced by their fault percentage."
+    ],
+    "answer_index": 3,
+    "explanation": "Plaintiff recovers reduced by their fault percentage.",
     "topic": "Defenses"
   },
   {
-    "question": "In modified 50% comparative negligence jurisdictions, a plaintiff 51% at fault:",
+    "question": "Modified 50% comparative negligence bars recovery if:",
     "choices": [
-      "Is barred from recovery because their fault exceeds the threshold.",
-      "Recovers 49% of damages.",
-      "Recovers 51% of damages.",
-      "Recovers full damages."
-    ],
-    "answer_index": 0,
-    "explanation": "Is barred from recovery because their fault exceeds the threshold.",
-    "topic": "Defenses"
-  },
-  {
-    "question": "Express assumption of risk is most clearly shown when:",
-    "choices": [
-      "The plaintiff understood some risk generally.",
-      "The plaintiff felt safe.",
-      "The plaintiff agreed in writing to waive claims for specific risks.",
-      "The plaintiff was warned verbally only."
+      "Defendant insolvent.",
+      "Plaintiff any fault.",
+      "Plaintiff ≥51% at fault.",
+      "Plaintiff <50% at fault."
     ],
     "answer_index": 2,
-    "explanation": "The plaintiff agreed in writing to waive claims for specific risks.",
+    "explanation": "Plaintiff ≥51% at fault.",
     "topic": "Defenses"
   },
   {
-    "question": "Implied primary assumption of risk generally means:",
+    "question": "Express assumption of risk strongest when:",
     "choices": [
-      "A heightened duty applies.",
-      "Strict liability applies.",
-      "No duty is owed as to inherent risks of an activity voluntarily undertaken.",
-      "Damages are doubled."
+      "No waiver needed.",
+      "Waiver unsigned.",
+      "Waiver clearly identifies risks.",
+      "Waiver vague."
     ],
     "answer_index": 2,
-    "explanation": "No duty is owed as to inherent risks of an activity voluntarily undertaken.",
+    "explanation": "Waiver clearly identifies risks.",
+    "topic": "Defenses"
+  },
+  {
+    "question": "Implied primary assumption of risk means:",
+    "choices": [
+      "No duty owed for inherent risks voluntarily accepted.",
+      "Heightened duty applies.",
+      "Damages doubled.",
+      "Strict liability."
+    ],
+    "answer_index": 0,
+    "explanation": "No duty owed for inherent risks voluntarily accepted.",
     "topic": "Defenses"
   },
   {
     "question": "Last clear chance doctrine allows recovery when:",
     "choices": [
-      "The plaintiff was negligent earlier, so recovery is barred.",
-      "There were multiple defendants.",
-      "Damages are minor.",
-      "The defendant had a later opportunity to avoid harm but failed to use reasonable care to do so."
+      "Damages minor.",
+      "Defendant had final opportunity to avoid harm but failed.",
+      "Plaintiff negligent so recovery barred.",
+      "Multiple defendants involved."
     ],
-    "answer_index": 3,
-    "explanation": "The defendant had a later opportunity to avoid harm but failed to use reasonable care to do so.",
+    "answer_index": 1,
+    "explanation": "Defendant had final opportunity to avoid harm but failed.",
     "topic": "Defenses"
   },
   {
-    "question": "What is the goal of compensatory damages?",
+    "question": "Compensatory damages are designed to:",
     "choices": [
-      "To punish the defendant.",
-      "To make the plaintiff whole to the extent money can do so.",
-      "To award a windfall.",
-      "To fund public programs."
+      "Reward plaintiff.",
+      "Make plaintiff whole.",
+      "Fund public programs.",
+      "Punish defendant."
     ],
     "answer_index": 1,
-    "explanation": "To make the plaintiff whole to the extent money can do so.",
+    "explanation": "Make plaintiff whole.",
     "topic": "Damages"
   },
   {
-    "question": "Mitigation (avoidable consequences) requires the plaintiff to:",
+    "question": "Mitigation requires plaintiff to:",
     "choices": [
-      "Take reasonable steps to reduce damages after the injury.",
-      "Pay defendant’s costs.",
-      "Do nothing after injury.",
-      "Admit fault."
-    ],
-    "answer_index": 0,
-    "explanation": "Take reasonable steps to reduce damages after the injury.",
-    "topic": "Damages"
-  },
-  {
-    "question": "Economic vs. non-economic damages distinction refers to:",
-    "choices": [
-      "Economic: punitive; Non-economic: compensatory.",
-      "Economic: measurable financial losses; Non-economic: pain, suffering, and similar intangible harms.",
-      "Economic: equitable; Non-economic: legal.",
-      "Economic: criminal fines; Non-economic: civil penalties."
-    ],
-    "answer_index": 1,
-    "explanation": "Economic: measurable financial losses; Non-economic: pain, suffering, and similar intangible harms.",
-    "topic": "Damages"
-  },
-  {
-    "question": "Under the zone-of-danger rule for negligent infliction of emotional distress (NIED), recovery requires:",
-    "choices": [
-      "Intent to harm emotionally.",
-      "Any bystander may recover.",
-      "Only property damage occurred.",
-      "Plaintiff was in immediate risk of physical harm and suffered serious emotional distress."
+      "Admit fault.",
+      "Do nothing.",
+      "Pay defendant.",
+      "Take reasonable steps to reduce damages."
     ],
     "answer_index": 3,
-    "explanation": "Plaintiff was in immediate risk of physical harm and suffered serious emotional distress.",
+    "explanation": "Take reasonable steps to reduce damages.",
+    "topic": "Damages"
+  },
+  {
+    "question": "Economic damages include:",
+    "choices": [
+      "Pain and suffering.",
+      "Financial losses like medical bills, lost wages.",
+      "Punitive damages.",
+      "Statutory fines."
+    ],
+    "answer_index": 1,
+    "explanation": "Financial losses like medical bills, lost wages.",
+    "topic": "Damages"
+  },
+  {
+    "question": "Non-economic damages include:",
+    "choices": [
+      "Medical bills.",
+      "Intangible harms like pain and suffering.",
+      "Property damage.",
+      "Lost wages."
+    ],
+    "answer_index": 1,
+    "explanation": "Intangible harms like pain and suffering.",
+    "topic": "Damages"
+  },
+  {
+    "question": "Zone-of-danger NIED requires:",
+    "choices": [
+      "Any bystander recovery.",
+      "Media coverage distress.",
+      "Plaintiff in risk of physical harm, serious distress.",
+      "Only economic loss."
+    ],
+    "answer_index": 2,
+    "explanation": "Plaintiff in risk of physical harm, serious distress.",
     "topic": "Emotional Harm"
   },
   {
-    "question": "Bystander NIED typically requires:",
+    "question": "Bystander NIED requires:",
     "choices": [
-      "Only economic loss is required.",
-      "Any acquaintance may recover.",
-      "Close relationship, presence at the scene, and serious distress from perceiving the event.",
-      "Later media coverage suffices."
+      "TV coverage sufficient.",
+      "Close relationship, presence, serious distress.",
+      "Any acquaintance recovers.",
+      "Only property damage."
     ],
-    "answer_index": 2,
-    "explanation": "Close relationship, presence at the scene, and serious distress from perceiving the event.",
+    "answer_index": 1,
+    "explanation": "Close relationship, presence, serious distress.",
     "topic": "Emotional Harm"
   },
   {
-    "question": "The independent duty/economic loss rule generally bars:",
+    "question": "Independent duty rule bars:",
     "choices": [
-      "All negligence suits over $10,000.",
-      "Any tort recovery with contracts present.",
-      "Negligence recovery for purely economic loss absent personal injury or property damage, unless a special duty applies.",
-      "Recovery for pain and suffering."
+      "Negligence >$10k.",
+      "Negligence claims for pure economic loss absent special duty.",
+      "All negligence with contracts.",
+      "Pain and suffering claims."
     ],
-    "answer_index": 2,
-    "explanation": "Negligence recovery for purely economic loss absent personal injury or property damage, unless a special duty applies.",
+    "answer_index": 1,
+    "explanation": "Negligence claims for pure economic loss absent special duty.",
     "topic": "Economic Loss"
   },
   {
-    "question": "In pure comparative negligence, if plaintiff is 10% at fault on $100,000 in damages, recovery is:",
+    "question": "Child standard of care compares to:",
     "choices": [
-      "$0",
-      "$10,000",
-      "$100,000",
-      "$90,000"
+      "Reasonably careful child of same age, intelligence, experience.",
+      "No duty owed.",
+      "Strict liability.",
+      "Adult standard always."
+    ],
+    "answer_index": 0,
+    "explanation": "Reasonably careful child of same age, intelligence, experience.",
+    "topic": "Breach"
+  },
+  {
+    "question": "Children in adult activities held to:",
+    "choices": [
+      "Adult reasonable person standard.",
+      "Child standard always.",
+      "No duty owed.",
+      "Strict liability."
+    ],
+    "answer_index": 0,
+    "explanation": "Adult reasonable person standard.",
+    "topic": "Breach"
+  },
+  {
+    "question": "Open and obvious danger effect:",
+    "choices": [
+      "Reduces duty to warn but not duty of reasonable care.",
+      "Eliminates all duties.",
+      "Bars claims.",
+      "Creates strict liability."
+    ],
+    "answer_index": 0,
+    "explanation": "Reduces duty to warn but not duty of reasonable care.",
+    "topic": "Premises Liability"
+  },
+  {
+    "question": "Blocking a fire exit causing crush injuries is:",
+    "choices": [
+      "No liability without statute.",
+      "Outside scope.",
+      "Superseding cause.",
+      "Within scope of risk that made conduct negligent."
     ],
     "answer_index": 3,
-    "explanation": "Comparative negligence reduces damages by plaintiff's fault percentage.",
-    "topic": "Defenses"
+    "explanation": "Within scope of risk that made conduct negligent.",
+    "topic": "Proximate Cause"
   },
   {
-    "question": "In pure comparative negligence, if plaintiff is 20% at fault on $100,000 in damages, recovery is:",
+    "question": "Failure to maintain brakes causing later collision is:",
     "choices": [
-      "$0",
-      "$80,000",
-      "$100,000",
-      "$20,000"
-    ],
-    "answer_index": 1,
-    "explanation": "Comparative negligence reduces damages by plaintiff's fault percentage.",
-    "topic": "Defenses"
-  },
-  {
-    "question": "In pure comparative negligence, if plaintiff is 25% at fault on $100,000 in damages, recovery is:",
-    "choices": [
-      "$25,000",
-      "$75,000",
-      "$0",
-      "$100,000"
-    ],
-    "answer_index": 1,
-    "explanation": "Comparative negligence reduces damages by plaintiff's fault percentage.",
-    "topic": "Defenses"
-  },
-  {
-    "question": "In pure comparative negligence, if plaintiff is 40% at fault on $100,000 in damages, recovery is:",
-    "choices": [
-      "$100,000",
-      "$60,000",
-      "$0",
-      "$40,000"
-    ],
-    "answer_index": 1,
-    "explanation": "Comparative negligence reduces damages by plaintiff's fault percentage.",
-    "topic": "Defenses"
-  },
-  {
-    "question": "In a 50% modified comparative negligence jurisdiction, plaintiff is 55% at fault. What is the result?",
-    "choices": [
-      "Only punitive damages are available.",
-      "Recover reduced damages.",
-      "Recover full damages.",
-      "Recovery is barred because plaintiff’s fault meets or exceeds the threshold."
-    ],
-    "answer_index": 3,
-    "explanation": "Modified systems bar recovery at or above the threshold percentage.",
-    "topic": "Defenses"
-  },
-  {
-    "question": "When a defendant creates a risk that injures someone, the defendant’s duty is:",
-    "choices": [
-      "Eliminated once the risk materializes.",
-      "Shifted entirely to rescuers.",
-      "To exercise reasonable care to prevent or mitigate harm from the risk created.",
-      "Converted to strict liability."
+      "No liability; another driver hit.",
+      "Always liable.",
+      "Liability if collision within risks of poor brakes.",
+      "Never liable if speeds low."
     ],
     "answer_index": 2,
-    "explanation": "To exercise reasonable care to prevent or mitigate harm from the risk created.",
+    "explanation": "Liability if collision within risks of poor brakes.",
+    "topic": "Proximate Cause"
+  },
+  {
+    "question": "Rescuers injured in attempts are:",
+    "choices": [
+      "Protected; rescue is foreseeable.",
+      "Superseding cause.",
+      "Outside duty.",
+      "Barred by assumption of risk."
+    ],
+    "answer_index": 0,
+    "explanation": "Protected; rescue is foreseeable.",
     "topic": "Duty"
   },
   {
-    "question": "Landowners owe invitees a duty to inspect because:",
+    "question": "Comparative negligence reduces:",
     "choices": [
-      "Only hidden natural dangers require inspection.",
-      "Reasonable care includes discovering hazards that the invitee might not notice.",
-      "Invitees assume all risks.",
-      "Inspecting is optional."
+      "Duty owed.",
+      "Damages by plaintiff’s fault percentage.",
+      "Liability by defendant’s wealth.",
+      "Scope of duty."
     ],
     "answer_index": 1,
-    "explanation": "Reasonable care includes discovering hazards that the invitee might not notice.",
-    "topic": "Premises Liability"
+    "explanation": "Damages by plaintiff’s fault percentage.",
+    "topic": "Defenses"
   },
   {
-    "question": "Blocking a fire exit at a crowded venue leads to crush injuries during a panic. Proximate cause?",
+    "question": "Contribution allows defendant who paid judgment to:",
     "choices": [
-      "Always superseding due to third-party panic.",
-      "Outside scope because injuries were indirect.",
-      "No liability unless a statute is violated.",
-      "Likely within scope of risk; being trapped or crushed is the very danger of blocked exits."
+      "Get indemnity automatically.",
+      "Bar plaintiff.",
+      "Collect punitive damages.",
+      "Seek proportional reimbursement from others."
     ],
     "answer_index": 3,
-    "explanation": "Likely within scope of risk; being trapped or crushed is the very danger of blocked exits.",
-    "topic": "Proximate Cause"
-  },
-  {
-    "question": "Failure to maintain brakes; another driver rear-ends plaintiff after you stop abruptly. Proximate cause?",
-    "choices": [
-      "Never liable if speeds were low.",
-      "No liability because someone else struck plaintiff.",
-      "Always liable because brakes were faulty.",
-      "Liability depends on whether the collision is among the risks that made the brake maintenance negligent."
-    ],
-    "answer_index": 3,
-    "explanation": "Liability depends on whether the collision is among the risks that made the brake maintenance negligent.",
-    "topic": "Proximate Cause"
-  },
-  {
-    "question": "Res ipsa typically requires that the instrumentality was:",
-    "choices": [
-      "Owned jointly by many unrelated parties without access limits.",
-      "Always criminally misused.",
-      "Treated as strict liability.",
-      "Under the defendant’s control and other responsible causes are sufficiently eliminated."
-    ],
-    "answer_index": 3,
-    "explanation": "Under the defendant’s control and other responsible causes are sufficiently eliminated.",
-    "topic": "Res Ipsa Loquitur"
-  },
-  {
-    "question": "A statute requires railings to prevent falls. Plaintiff is robbed behind a railing post. Negligence per se?",
-    "choices": [
-      "Likely no; robbery is not the type of harm the statute was designed to prevent.",
-      "No; statutes never matter in tort.",
-      "Yes; criminal acts always trigger NPS.",
-      "Yes; any harm on the premises qualifies."
-    ],
-    "answer_index": 0,
-    "explanation": "Likely no; robbery is not the type of harm the statute was designed to prevent.",
-    "topic": "Negligence Per Se"
-  },
-  {
-    "question": "A safety statute protects pedestrians from speeding vehicles. Driver speeds and hits a pedestrian. NPS effect?",
-    "choices": [
-      "Statute likely supplies the standard of care for breach if causation is shown.",
-      "NPS proves damages automatically.",
-      "NPS converts to strict liability for all accidents.",
-      "No effect because speeding is common."
-    ],
-    "answer_index": 0,
-    "explanation": "Statute likely supplies the standard of care for breach if causation is shown.",
-    "topic": "Negligence Per Se"
-  },
-  {
-    "question": "After plaintiff recovers 100% from one joint tortfeasor, that defendant’s main remedy is:",
-    "choices": [
-      "Indemnity in all cases automatically.",
-      "Contribution from other responsible tortfeasors.",
-      "Punitive damages from co-defendants.",
-      "Rescission of the judgment."
-    ],
-    "answer_index": 1,
-    "explanation": "Contribution from other responsible tortfeasors.",
+    "explanation": "Seek proportional reimbursement from others.",
     "topic": "Causation & Apportionment"
   },
   {
-    "question": "Alternative liability requires proof that:",
+    "question": "Indemnity differs by:",
     "choices": [
-      "Each defendant was negligent and that one (unknown which) caused the harm.",
-      "Harm occurred in multiple locations.",
-      "At least one defendant acted reasonably.",
-      "Products were fungible across a market."
+      "Splitting losses.",
+      "Punitive remedy.",
+      "Shifting entire loss to another party.",
+      "Only contractual."
     ],
-    "answer_index": 0,
-    "explanation": "Each defendant was negligent and that one (unknown which) caused the harm.",
+    "answer_index": 2,
+    "explanation": "Shifting entire loss to another party.",
     "topic": "Causation & Apportionment"
   },
   {
-    "question": "Two fires of independent origin converge and burn a house. How is factual causation handled?",
+    "question": "Foreseeability in breach means:",
     "choices": [
-      "Each fire can be treated as an actual cause because either alone was sufficient to cause the harm.",
-      "Neither fire is a cause because each could be sufficient.",
-      "Only the larger fire is a cause.",
-      "Plaintiff must pick exactly one cause."
+      "Helps determine whether conduct fell below reasonable care.",
+      "Automatically proves proximate cause.",
+      "Proves intent.",
+      "Replaces damages."
     ],
     "answer_index": 0,
-    "explanation": "Each fire can be treated as an actual cause because either alone was sufficient to cause the harm.",
-    "topic": "Actual Causation"
-  },
-  {
-    "question": "Secondary implied assumption of risk typically operates as:",
-    "choices": [
-      "An absolute bar in all cases.",
-      "Strict liability for plaintiff.",
-      "A criminal defense.",
-      "A comparative negligence question allocating fault."
-    ],
-    "answer_index": 3,
-    "explanation": "A comparative negligence question allocating fault.",
-    "topic": "Defenses"
-  },
-  {
-    "question": "Why does the independent duty rule often bar negligence claims for pure economic loss?",
-    "choices": [
-      "Because damages over $10,000 are capped.",
-      "Because intent is required.",
-      "Because courts disfavor businesses.",
-      "Because tort duties generally require personal injury or property damage unless a special duty exists."
-    ],
-    "answer_index": 3,
-    "explanation": "Because tort duties generally require personal injury or property damage unless a special duty exists.",
-    "topic": "Economic Loss"
-  },
-  {
-    "question": "In pure comparative negligence, plaintiff is 15% at fault with $200,000 in damages. Recovery is:",
-    "choices": [
-      "$0",
-      "$170,000",
-      "$200,000",
-      "$30,000"
-    ],
-    "answer_index": 1,
-    "explanation": "Comparative negligence reduces recovery by plaintiff’s share of fault.",
-    "topic": "Defenses"
-  },
-  {
-    "question": "In pure comparative negligence, plaintiff is 35% at fault with $200,000 in damages. Recovery is:",
-    "choices": [
-      "$70,000",
-      "$200,000",
-      "$0",
-      "$130,000"
-    ],
-    "answer_index": 3,
-    "explanation": "Comparative negligence reduces recovery by plaintiff’s share of fault.",
-    "topic": "Defenses"
-  },
-  {
-    "question": "In pure comparative negligence, plaintiff is 45% at fault with $200,000 in damages. Recovery is:",
-    "choices": [
-      "$0",
-      "$200,000",
-      "$110,000",
-      "$90,000"
-    ],
-    "answer_index": 2,
-    "explanation": "Comparative negligence reduces recovery by plaintiff’s share of fault.",
-    "topic": "Defenses"
-  },
-  {
-    "question": "What is the basic role of foreseeability in breach?",
-    "choices": [
-      "Foreseeability proves intent.",
-      "Foreseeability automatically proves proximate cause.",
-      "Foreseeability of harm helps determine whether the conduct fell below reasonable care.",
-      "Foreseeability replaces damages."
-    ],
-    "answer_index": 2,
-    "explanation": "Foreseeability of harm helps determine whether the conduct fell below reasonable care.",
+    "explanation": "Helps determine whether conduct fell below reasonable care.",
     "topic": "Breach"
   },
   {
-    "question": "How does the reasonable child standard work?",
+    "question": "Reasonable professional standard is:",
     "choices": [
-      "Children are compared to a reasonably careful child of like age, intelligence, and experience (except in adult activities).",
-      "Children are held to the adult standard always.",
-      "Children owe no duty.",
-      "Children owe strict liability."
-    ],
-    "answer_index": 0,
-    "explanation": "Children are compared to a reasonably careful child of like age, intelligence, and experience (except in adult activities).",
-    "topic": "Breach"
-  },
-  {
-    "question": "When is a child held to the adult standard of care?",
-    "choices": [
-      "When damages exceed a statutory amount.",
-      "When engaging in inherently dangerous adult activities (e.g., driving).",
-      "Only when supervised by adults.",
-      "Never; children get a special standard in all activities."
-    ],
-    "answer_index": 1,
-    "explanation": "When engaging in inherently dangerous adult activities (e.g., driving).",
-    "topic": "Breach"
-  },
-  {
-    "question": "What is the effect of an open and obvious danger on land?",
-    "choices": [
-      "It creates strict liability.",
-      "It eliminates all duties.",
-      "It may reduce the duty to warn but does not eliminate the duty to maintain reasonably safe premises.",
-      "It bars all claims."
+      "Strict liability.",
+      "Personal best only.",
+      "Knowledge and skill of reasonably prudent professional.",
+      "Public expectations only."
     ],
     "answer_index": 2,
-    "explanation": "It may reduce the duty to warn but does not eliminate the duty to maintain reasonably safe premises.",
+    "explanation": "Knowledge and skill of reasonably prudent professional.",
+    "topic": "Breach"
+  },
+  {
+    "question": "Attractive nuisance doctrine protects:",
+    "choices": [
+      "Invitees only.",
+      "Adults only.",
+      "Licensees only.",
+      "Child trespassers from artificial conditions."
+    ],
+    "answer_index": 3,
+    "explanation": "Child trespassers from artificial conditions.",
     "topic": "Premises Liability"
   },
   {
-    "question": "Express assumption of risk is most effective when the waiver:",
+    "question": "Eggshell skull rule applies to:",
     "choices": [
-      "Is buried in fine print only.",
-      "Is unsigned.",
-      "Clearly identifies the risks and is not against public policy.",
-      "Mentions no specific risks."
+      "Extent of damages, not duty or breach.",
+      "Breach.",
+      "Duty.",
+      "Cause-in-fact."
+    ],
+    "answer_index": 0,
+    "explanation": "Extent of damages, not duty or breach.",
+    "topic": "Damages"
+  },
+  {
+    "question": "Zone-of-danger rule limits NIED to:",
+    "choices": [
+      "Media viewers.",
+      "All bystanders.",
+      "Those within immediate risk of physical harm.",
+      "Those with economic loss."
     ],
     "answer_index": 2,
-    "explanation": "Clearly identifies the risks and is not against public policy.",
-    "topic": "Defenses"
+    "explanation": "Those within immediate risk of physical harm.",
+    "topic": "Emotional Harm"
   }
 ]
