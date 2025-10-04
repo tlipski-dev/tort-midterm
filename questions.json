@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q1",
+    "topic": "Duty",
+    "question": "At common law, is there a general duty to rescue strangers in peril?",
+    "choices": [
+      "A. Yes, a duty always exists to help anyone in danger",
+      "B. No, unless a special relationship or exception applies",
+      "C. Yes, but only if the victim requests help",
+      "D. No, because negligence law does not recognize duties"
+    ],
+    "answer_index": 1,
+    "explanation": "At common law, there is no general duty to rescue. Exceptions exist when the defendant created the peril, undertakes a rescue, or stands in a special relationship."
+  },
+  {
+    "id": "q2",
+    "topic": "Breach",
+    "question": "In Vaughn v. Menlove, the court held that negligence is judged by:",
+    "choices": [
+      "A. The defendant’s best personal judgment",
+      "B. The reasonable person standard",
+      "C. The custom of the industry",
+      "D. The level of harm that actually occurred"
+    ],
+    "answer_index": 1,
+    "explanation": "The case established the objective reasonable person standard, rejecting a purely subjective approach."
+  },
+  {
+    "id": "q3",
+    "topic": "Actual Cause",
+    "question": "Which of the following states the but-for test for causation?",
+    "choices": [
+      "A. The harm would not have occurred without the defendant’s conduct",
+      "B. The harm was a foreseeable result of the defendant’s conduct",
+      "C. The harm was within the scope of risk created by the defendant",
+      "D. The defendant acted intentionally to cause harm"
+    ],
+    "answer_index": 0,
+    "explanation": "Actual cause (but-for causation) means the injury would not have occurred without the defendant’s negligent conduct."
+  },
+  {
+    "id": "q4",
+    "topic": "Proximate Cause",
+    "question": "A thief intentionally detonates explosives negligently left unattended by a trucking company. The victims sue the trucking company. Which is the best analysis?",
+    "choices": [
+      "A. The thief’s act always supersedes liability",
+      "B. The trucking company remains liable because actual cause is satisfied",
+      "C. Liability depends on whether the harm was within the scope of the risk",
+      "D. Proximate cause does not apply to intentional intervening acts"
+    ],
+    "answer_index": 2,
+    "explanation": "Proximate cause focuses on scope of the risk. An intentional intervening act may supersede, but not automatically—courts ask if the type of harm was one that made the conduct negligent."
+  },
+  {
+    "id": "q5",
+    "topic": "Negligence Per Se",
+    "question": "A statute requires drivers to wear corrective lenses if listed on their license. A driver without glasses injures a pedestrian. What is the effect of negligence per se?",
+    "choices": [
+      "A. It automatically establishes liability",
+      "B. It establishes breach if the statute protects this harm and class, but causation must still be proven",
+      "C. It is irrelevant in civil cases unless the legislature expressly allows it",
+      "D. It only serves as evidence of negligence, never conclusive"
+    ],
+    "answer_index": 1,
+    "explanation": "Negligence per se substitutes statutory duty for reasonable care, but the plaintiff still must prove causation and damages."
+  }
+]
