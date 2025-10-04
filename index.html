@@ -3,12 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tort Quiz — One-at-a-Time</title>
+<title>Tort Quiz — Self-Grading</title>
 <style>
-  body{font-family:sans-serif;max-width:700px;margin:20px auto;padding:0 15px;background:#f6f7fb;color:#111}
+  body{font-family:sans-serif;max-width:900px;margin:20px auto;padding:0 15px;background:#f6f7fb;color:#111}
   header{background:#111;color:#fff;padding:20px;border-radius:10px}
   header h1{margin:0}
-  .card{background:#fff;border:1px solid #ddd;border-radius:10px;padding:15px;margin:20px 0}
+  .toolbar{margin:15px 0;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  button{padding:10px 14px;border:1px solid #ccc;border-radius:8px;cursor:pointer}
+  button.primary{background:#111;color:#fff;border-color:#111}
+  .card{background:#fff;border:1px solid #ddd;border-radius:10px;padding:15px;margin:10px 0}
   .choices{display:grid;gap:8px;margin-top:10px}
   .choice{border:1px solid #ccc;border-radius:8px;padding:10px;background:#fafafe;text-align:left;cursor:pointer}
   .choice.correct{border-color:green;background:#e6ffed}
@@ -16,110 +19,196 @@
   .feedback{margin-top:10px;display:none;padding:10px;border-radius:8px}
   .feedback.ok{background:#e6ffed;border:1px solid green}
   .feedback.no{background:#ffe6e6;border:1px solid red}
-  .toolbar{margin:15px 0;display:flex;gap:10px;flex-wrap:wrap}
-  button{padding:10px 14px;border:1px solid #ccc;border-radius:8px;cursor:pointer}
-  button.primary{background:#111;color:#fff;border-color:#111}
+  #scorebox{margin-left:auto;background:#111;color:#fff;padding:8px 12px;border-radius:999px}
+  #studyPanel{display:none}
+  .pill{display:inline-block;padding:6px 10px;border:1px solid #ddd;border-radius:999px;margin:4px 6px 0 0;background:#fafafa}
+  .muted{color:#666}
 </style>
 </head>
 <body>
 <header>
-  <h1>Tort Quiz — One-at-a-Time</h1>
+  <h1>Tort Quiz — Self-Grading</h1>
 </header>
+
+<div class="toolbar">
+  <button id="resetBtn">Reset quiz</button>
+  <button id="revealBtn">Reveal all answers</button>
+  <button id="studyBtn" class="primary">Show study topics</button>
+  <span id="scorebox">Score: <strong id="score">0</strong>/<span id="total">0</span></span>
+</div>
 
 <div id="quiz"></div>
 
-<div class="toolbar">
-  <button id="nextBtn" class="primary" style="display:none">Next Question</button>
-  <span id="progress"></span>
+<!-- Study Suggestions Panel -->
+<div id="studyPanel" class="card">
+  <h3>Study suggestions</h3>
+  <div id="studyContent" class="muted">Answer some questions first, then click “Show study topics.”</div>
 </div>
 
 <script>
 let QUESTIONS = [];
-let asked = [];
-let currentIndex = null;
 let score = 0;
 
-const quizEl = document.getElementById('quiz');
-const nextBtn = document.getElementById('nextBtn');
-const progress = document.getElementById('progress');
+// Track per-question results: { topic, correct } by index
+let results = [];  // results[i] corresponds to QUESTIONS[i]
 
+const quizEl = document.getElementById('quiz');
+const scoreEl = document.getElementById('score');
+const totalEl = document.getElementById('total');
+const resetBtn = document.getElementById('resetBtn');
+const revealBtn = document.getElementById('revealBtn');
+const studyBtn = document.getElementById('studyBtn');
+const studyPanel = document.getElementById('studyPanel');
+const studyContent = document.getElementById('studyContent');
+
+// Load questions.json
 async function loadQuestions() {
   try {
     const res = await fetch('questions.json', {cache:'no-store'});
+    if (!res.ok) throw new Error('no questions file');
     QUESTIONS = await res.json();
   } catch (e) {
     QUESTIONS = [];
   }
-  showRandomQuestion();
+  renderQuiz();
 }
 
-function showRandomQuestion() {
+function renderQuiz() {
   quizEl.innerHTML = '';
-  nextBtn.style.display = 'none';
+  score = 0;
+  results = new Array(QUESTIONS.length).fill(null);
+  scoreEl.textContent = 0;
+  totalEl.textContent = QUESTIONS.length;
+  studyPanel.style.display = 'none';
+  studyContent.textContent = 'Answer some questions first, then click “Show study topics.”';
+  studyContent.classList.add('muted');
 
-  if (asked.length === QUESTIONS.length) {
-    quizEl.innerHTML = `<div class="card"><h3>Quiz finished!</h3><p>You scored ${score} / ${QUESTIONS.length}.</p></div>`;
-    progress.textContent = '';
-    return;
-  }
+  QUESTIONS.forEach((q, idx) => {
+    const card = document.createElement('div');
+    card.className = 'card';
 
-  // pick random unused index
-  do {
-    currentIndex = Math.floor(Math.random() * QUESTIONS.length);
-  } while (asked.includes(currentIndex));
+    const title = document.createElement('h3');
+    title.textContent = `Q${idx+1}. ${q.question}`;
+    card.appendChild(title);
 
-  asked.push(currentIndex);
-  const q = QUESTIONS[currentIndex];
+    const choices = document.createElement('div');
+    choices.className = 'choices';
 
-  const card = document.createElement('div');
-  card.className = 'card';
+    q.choices.forEach((text, cIdx) => {
+      const btn = document.createElement('button');
+      btn.className = 'choice';
+      btn.textContent = text;
+      btn.addEventListener('click', () => onChoose(card, btn, cIdx === q.answer_index, q, idx));
+      choices.appendChild(btn);
+    });
 
-  const title = document.createElement('h3');
-  title.textContent = `Q${asked.length}. ${q.question}`;
-  card.appendChild(title);
+    const fb = document.createElement('div');
+    fb.className = 'feedback';
+    card.appendChild(choices);
+    card.appendChild(fb);
 
-  const choices = document.createElement('div');
-  choices.className = 'choices';
-
-  q.choices.forEach((text, cIdx) => {
-    const btn = document.createElement('button');
-    btn.className = 'choice';
-    btn.textContent = text;
-    btn.addEventListener('click', () => onChoose(card, btn, cIdx === q.answer_index, q));
-    choices.appendChild(btn);
+    quizEl.appendChild(card);
   });
-
-  const fb = document.createElement('div');
-  fb.className = 'feedback';
-  card.appendChild(choices);
-  card.appendChild(fb);
-
-  quizEl.appendChild(card);
-
-  progress.textContent = `Question ${asked.length} of ${QUESTIONS.length}`;
 }
 
-function onChoose(card, btn, correct, q) {
+function onChoose(card, btn, correct, q, idx) {
   const buttons = card.querySelectorAll('.choice');
+  // If already answered, ignore additional clicks
+  if ([...buttons].some(b => b.disabled)) return;
+
   buttons.forEach(b => b.disabled = true);
+  // Mark correct choice
   if (buttons[q.answer_index]) buttons[q.answer_index].classList.add('correct');
+  // Mark incorrect click
   if (!correct) btn.classList.add('incorrect');
 
+  // Feedback
   const fb = card.querySelector('.feedback');
   fb.style.display = 'block';
   if (correct) {
     fb.classList.add('ok');
     fb.innerHTML = `<strong>Correct!</strong><br>${q.explanation||''}`;
     score++;
+    scoreEl.textContent = score;
   } else {
     fb.classList.add('no');
     fb.innerHTML = `<strong>Incorrect.</strong> Correct answer: <em>${q.choices[q.answer_index]}</em><br>${q.explanation||''}`;
   }
 
-  nextBtn.style.display = 'inline-block';
+  // Save result for study suggestions
+  results[idx] = { topic: q.topic || 'General', correct };
 }
 
-nextBtn.addEventListener('click', showRandomQuestion);
+resetBtn.addEventListener('click', renderQuiz);
+
+revealBtn.addEventListener('click', () => {
+  // Reveal correct answers without altering results[] (so reveal doesn’t count as wrong)
+  document.querySelectorAll('.card').forEach((card, idx) => {
+    const q = QUESTIONS[idx];
+    if (!q) return;
+    const buttons = card.querySelectorAll('.choice');
+    // If unanswered, disable and show answer
+    if (![...buttons].some(b => b.disabled)) {
+      buttons.forEach(b => b.disabled = true);
+      if (buttons[q.answer_index]) buttons[q.answer_index].classList.add('correct');
+      const fb = card.querySelector('.feedback');
+      fb.style.display = 'block';
+      fb.classList.remove('no'); fb.classList.add('ok');
+      fb.innerHTML = `<strong>Answer:</strong> <em>${q.choices[q.answer_index]}</em><br>${q.explanation||''}`;
+      // Mark as “viewed” but not wrong: keep results[idx] as null
+    }
+  });
+});
+
+// Build study suggestions based on wrong answers
+function buildStudySuggestions() {
+  // Count wrong by topic
+  const counts = {};
+  results.forEach(r => {
+    if (r && r.correct === false) {
+      const key = r.topic || 'General';
+      counts[key] = (counts[key] || 0) + 1;
+    }
+  });
+
+  studyPanel.style.display = 'block';
+
+  const topics = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+
+  if (topics.length === 0) {
+    studyContent.innerHTML = `<span class="muted">Nice! No missed topics yet. Try more questions or click “Reveal all answers” to review explanations.</span>`;
+    return;
+  }
+
+  // Build a compact list with counts
+  const frag = document.createDocumentFragment();
+  const intro = document.createElement('p');
+  intro.textContent = 'Based on your missed questions, focus on:';
+  frag.appendChild(intro);
+
+  const list = document.createElement('div');
+  topics.forEach(t => {
+    const pill = document.createElement('span');
+    pill.className = 'pill';
+    pill.textContent = `${t}  ·  ${counts[t]}`;
+    list.appendChild(pill);
+  });
+  frag.appendChild(list);
+
+  // Optional: quick micro-suggestions for common torts topics
+  const notes = document.createElement('div');
+  notes.className = 'muted';
+  notes.style.marginTop = '8px';
+  notes.innerHTML = `
+    <div><strong>Tip:</strong> Revisit rule statements and “magic words” for each topic, then run fresh hypos.</div>
+  `;
+  frag.appendChild(notes);
+
+  studyContent.innerHTML = '';
+  studyContent.appendChild(frag);
+}
+
+studyBtn.addEventListener('click', buildStudySuggestions);
 
 loadQuestions();
 </script>
