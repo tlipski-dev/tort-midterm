@@ -2,66 +2,1681 @@
   {
     "id": "q1",
     "topic": "Duty",
-    "question": "At common law, is there a general duty to rescue strangers in peril?",
+    "difficulty": "easy",
+    "question": "At common law, is there a general duty to rescue a stranger in peril?",
     "choices": [
-      "A. Yes, a duty always exists to help anyone in danger",
-      "B. No, unless a special relationship or exception applies",
-      "C. Yes, but only if the victim requests help",
-      "D. No, because negligence law does not recognize duties"
+      "A. Yes, a duty always exists",
+      "B. No, unless an exception applies",
+      "C. Yes, if the rescue would be easy",
+      "D. No, because negligence law never recognizes duties"
     ],
     "answer_index": 1,
-    "explanation": "At common law, there is no general duty to rescue. Exceptions exist when the defendant created the peril, undertakes a rescue, or stands in a special relationship."
+    "explanation": "No general duty to rescue. Exceptions: defendant created the peril, special relationship, or voluntary undertaking."
   },
   {
     "id": "q2",
-    "topic": "Breach",
-    "question": "In Vaughn v. Menlove, the court held that negligence is judged by:",
+    "topic": "Duty",
+    "difficulty": "hard",
+    "question": "D negligently creates a traffic hazard; P is injured when a third party collides while rubbernecking. Which is most accurate?",
     "choices": [
-      "A. The defendant’s best personal judgment",
-      "B. The reasonable person standard",
-      "C. The custom of the industry",
-      "D. The level of harm that actually occurred"
+      "A. No duty because third-party acts always break the chain",
+      "B. Duty exists if the risk of third-party reactions was reasonably foreseeable",
+      "C. No duty absent privity",
+      "D. Duty exists only if the third party was negligent per se"
     ],
     "answer_index": 1,
-    "explanation": "The case established the objective reasonable person standard, rejecting a purely subjective approach."
+    "explanation": "Duty analysis turns on foreseeability and scope of risk; creating a hazard foreseeably invites third‑party reactions."
   },
   {
     "id": "q3",
-    "topic": "Actual Cause",
-    "question": "Which of the following states the but-for test for causation?",
+    "topic": "Breach",
+    "difficulty": "easy",
+    "question": "Negligence is typically measured against which standard?",
     "choices": [
-      "A. The harm would not have occurred without the defendant’s conduct",
-      "B. The harm was a foreseeable result of the defendant’s conduct",
-      "C. The harm was within the scope of risk created by the defendant",
-      "D. The defendant acted intentionally to cause harm"
+      "A. Defendant’s best personal judgment",
+      "B. The reasonable person",
+      "C. Industry custom conclusively",
+      "D. What the judge would have done"
     ],
-    "answer_index": 0,
-    "explanation": "Actual cause (but-for causation) means the injury would not have occurred without the defendant’s negligent conduct."
+    "answer_index": 1,
+    "explanation": "Objective reasonable person standard; custom is evidence but not conclusive."
   },
   {
     "id": "q4",
-    "topic": "Proximate Cause",
-    "question": "A thief intentionally detonates explosives negligently left unattended by a trucking company. The victims sue the trucking company. Which is the best analysis?",
+    "topic": "Breach",
+    "difficulty": "hard",
+    "question": "Industry custom shows most actors skip a cheap guard that would prevent a serious harm. Best analysis?",
     "choices": [
-      "A. The thief’s act always supersedes liability",
-      "B. The trucking company remains liable because actual cause is satisfied",
-      "C. Liability depends on whether the harm was within the scope of the risk",
-      "D. Proximate cause does not apply to intentional intervening acts"
+      "A. Custom controls; no breach",
+      "B. Evidence of no breach as a matter of law",
+      "C. Jury may find breach despite custom",
+      "D. Judge decides breach on summary judgment"
     ],
     "answer_index": 2,
-    "explanation": "Proximate cause focuses on scope of the risk. An intentional intervening act may supersede, but not automatically—courts ask if the type of harm was one that made the conduct negligent."
+    "explanation": "Custom is relevant but not controlling. The jury may find breach when reasonable care requires more than customary practice."
   },
   {
     "id": "q5",
-    "topic": "Negligence Per Se",
-    "question": "A statute requires drivers to wear corrective lenses if listed on their license. A driver without glasses injures a pedestrian. What is the effect of negligence per se?",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "easy",
+    "question": "Which statement best captures but‑for causation?",
     "choices": [
-      "A. It automatically establishes liability",
-      "B. It establishes breach if the statute protects this harm and class, but causation must still be proven",
-      "C. It is irrelevant in civil cases unless the legislature expressly allows it",
-      "D. It only serves as evidence of negligence, never conclusive"
+      "A. Harm would not have occurred without D’s conduct",
+      "B. Harm was foreseeable",
+      "C. Harm was within scope of risk",
+      "D. D acted intentionally"
+    ],
+    "answer_index": 0,
+    "explanation": "But‑for asks whether the injury would have occurred absent the breach."
+  },
+  {
+    "id": "q6",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "hard",
+    "question": "Hospital negligently delays antibiotics, but undisputed evidence shows the infection was already irreversible. Result on actual cause?",
+    "choices": [
+      "A. Satisfied because delay was negligent",
+      "B. Not satisfied; harm would have occurred anyway",
+      "C. Satisfied because damages are severe",
+      "D. Satisfied whenever medical defendants are involved"
     ],
     "answer_index": 1,
-    "explanation": "Negligence per se substitutes statutory duty for reasonable care, but the plaintiff still must prove causation and damages."
+    "explanation": "If the injury would have occurred regardless, but‑for fails; no actual cause."
+  },
+  {
+    "id": "q7",
+    "topic": "Multiple Sufficient Causes",
+    "difficulty": "easy",
+    "question": "Two negligent fires, each sufficient to burn P’s house, merge. Under modern approach:",
+    "choices": [
+      "A. Neither is a cause",
+      "B. Only the larger fire is a cause",
+      "C. Both are treated as actual causes",
+      "D. Plaintiff cannot recover"
+    ],
+    "answer_index": 2,
+    "explanation": "Restatement (Third): each sufficient cause counts as a factual cause."
+  },
+  {
+    "id": "q8",
+    "topic": "Multiple Sufficient Causes",
+    "difficulty": "hard",
+    "question": "Two careless drivers independently release toxins, each sufficient to cause P’s identical lung injury. Best causation treatment?",
+    "choices": [
+      "A. Traditional but‑for test excludes both",
+      "B. Substantial factor test or Restatement (Third) sufficient‑cause principle includes both",
+      "C. Market share liability",
+      "D. Alternative liability"
+    ],
+    "answer_index": 1,
+    "explanation": "Where each act is sufficient, courts treat each as a cause despite but‑for’s failure."
+  },
+  {
+    "id": "q9",
+    "topic": "Alternative Liability",
+    "difficulty": "easy",
+    "question": "Two hunters are negligent; one bullet hits P but identity is unknown. Which doctrine assists P?",
+    "choices": [
+      "A. Market share liability",
+      "B. Alternative liability (burden shifts)",
+      "C. Joint and several liability only",
+      "D. Negligence per se"
+    ],
+    "answer_index": 1,
+    "explanation": "Summers v. Tice shifts the burden to defendants to disprove causation."
+  },
+  {
+    "id": "q10",
+    "topic": "Alternative Liability",
+    "difficulty": "hard",
+    "question": "Alternative liability applies most appropriately when:",
+    "choices": [
+      "A. All defendants acted with due care",
+      "B. All defendants were negligent and one (unknown) caused the harm",
+      "C. Plaintiff can identify the tortfeasor",
+      "D. There were multiple sufficient causes"
+    ],
+    "answer_index": 1,
+    "explanation": "Prereqs: all defendants were negligent; only one caused the harm; causal uncertainty justifies burden shifting."
+  },
+  {
+    "id": "q11",
+    "topic": "Joint & Several Liability",
+    "difficulty": "easy",
+    "question": "Under joint & several liability, plaintiff may:",
+    "choices": [
+      "A. Recover only 50% from each tortfeasor",
+      "B. Recover 100% from either tortfeasor for indivisible harm",
+      "C. Recover only exact shares as found at trial",
+      "D. Not recover when causes are uncertain"
+    ],
+    "answer_index": 1,
+    "explanation": "Plaintiff may collect the full judgment from either defendant; contribution sorts it out."
+  },
+  {
+    "id": "q12",
+    "topic": "Joint & Several Liability",
+    "difficulty": "hard",
+    "question": "P collects entire judgment from D1; what is D1’s recourse against D2?",
+    "choices": [
+      "A. None; double recovery allowed",
+      "B. Contribution claim against D2",
+      "C. Indemnity is automatic",
+      "D. Res judicata bars recovery"
+    ],
+    "answer_index": 1,
+    "explanation": "A paying defendant may pursue contribution from other negligent defendants."
+  },
+  {
+    "id": "q13",
+    "topic": "Market Share Liability",
+    "difficulty": "easy",
+    "question": "In DES-type cases, damages may be apportioned:",
+    "choices": [
+      "A. Equally among all defendants",
+      "B. By each defendant’s market share of the product",
+      "C. Only if actual manufacturer is identified",
+      "D. By who sold the last dose"
+    ],
+    "answer_index": 1,
+    "explanation": "Sindell: allocate by market share over relevant period."
+  },
+  {
+    "id": "q14",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Key disputes in market share liability commonly include:",
+    "choices": [
+      "A. Whether intentional torts are included",
+      "B. Defining the relevant market and timeframe",
+      "C. Whether negligence per se is constitutional",
+      "D. Whether res ipsa applies automatically"
+    ],
+    "answer_index": 1,
+    "explanation": "Parties fight over market definition and period because the share controls exposure."
+  },
+  {
+    "id": "q15",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "easy",
+    "question": "An intentional intervening act breaks the chain:",
+    "choices": [
+      "A. Always",
+      "B. Never",
+      "C. Only if outside the scope of the risk created by D’s negligence",
+      "D. Only if D is insolvent"
+    ],
+    "answer_index": 2,
+    "explanation": "Scope-of-risk test: intervening criminal/intentional acts can supersede if outside the risk that made D negligent."
+  },
+  {
+    "id": "q16",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "hard",
+    "question": "Landlord blocks a fire exit (negligence). During a fire, a looter bars the door, worsening harm. Liability turns on:",
+    "choices": [
+      "A. Whether looting is more negligent",
+      "B. Whether the harm is within the scope of the risk that made the blocked exit negligent",
+      "C. Whether joint & several liability applies",
+      "D. Whether plaintiff was contributorily negligent per se"
+    ],
+    "answer_index": 1,
+    "explanation": "Proximate cause asks whether the injury is a realization of the risk that made D’s conduct negligent."
+  },
+  {
+    "id": "q17",
+    "topic": "Negligence Per Se",
+    "difficulty": "easy",
+    "question": "Negligence per se primarily affects which element?",
+    "choices": [
+      "A. Duty/Breach (standard of care)",
+      "B. Actual cause",
+      "C. Damages",
+      "D. Intent"
+    ],
+    "answer_index": 0,
+    "explanation": "It substitutes the statutory standard for reasonable care to establish breach if class/type of harm match."
+  },
+  {
+    "id": "q18",
+    "topic": "Negligence Per Se",
+    "difficulty": "hard",
+    "question": "Statute requires corrective lenses as indicated on license. D drives without lenses and hits P. What must P still prove?",
+    "choices": [
+      "A. Nothing; negligence per se establishes all elements",
+      "B. Only damages",
+      "C. Actual and proximate causation",
+      "D. That D intended harm"
+    ],
+    "answer_index": 2,
+    "explanation": "Negligence per se can establish breach, but plaintiff must still prove causation and damages."
+  },
+  {
+    "id": "q19",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "easy",
+    "question": "Res ipsa allows the jury to:",
+    "choices": [
+      "A. Conclusively presume breach",
+      "B. Infer breach from the nature of the accident",
+      "C. Ignore causation",
+      "D. Award punitive damages automatically"
+    ],
+    "answer_index": 1,
+    "explanation": "When the event ordinarily does not occur absent negligence and instrumentality was in D’s control, the jury may infer breach."
+  },
+  {
+    "id": "q20",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "hard",
+    "question": "Which best states res ipsa’s procedural effect?",
+    "choices": [
+      "A. Shifts burden of persuasion on all elements",
+      "B. Creates a permissible inference of negligence and may shift the burden of production",
+      "C. Bars defendants from presenting evidence",
+      "D. Establishes negligence per se"
+    ],
+    "answer_index": 1,
+    "explanation": "Res ipsa generally creates an inference and may shift the burden of production, not the ultimate burden of persuasion."
+  },
+  {
+    "id": "q21",
+    "topic": "Breach",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for breach?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "B. The statute always establishes liability including causation.",
+      "C. Intent is required for negligence in all cases.",
+      "A. Measured against the reasonable person; custom is evidence but not conclusive."
+    ],
+    "answer_index": 3,
+    "explanation": "Measured against the reasonable person; custom is evidence but not conclusive."
+  },
+  {
+    "id": "q22",
+    "topic": "Multiple Sufficient Causes",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for multiple sufficient causes?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "C. Intent is required for negligence in all cases.",
+      "A. When each negligent act is sufficient, treat each as an actual cause despite but‑for’s failure.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 2,
+    "explanation": "When each negligent act is sufficient, treat each as an actual cause despite but‑for’s failure."
+  },
+  {
+    "id": "q23",
+    "topic": "Negligence Per Se",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for negligence per se?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "B. The statute always establishes liability including causation.",
+      "C. Intent is required for negligence in all cases.",
+      "A. Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm."
+    ],
+    "answer_index": 3,
+    "explanation": "Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm."
+  },
+  {
+    "id": "q24",
+    "topic": "Duty",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for duty?",
+    "choices": [
+      "B. The statute always establishes liability including causation.",
+      "C. Intent is required for negligence in all cases.",
+      "D. Liability turns solely on the severity of harm.",
+      "A. No general duty to rescue; exceptions include creating the peril, special relationships, or voluntary undertakings."
+    ],
+    "answer_index": 3,
+    "explanation": "No general duty to rescue; exceptions include creating the peril, special relationships, or voluntary undertakings."
+  },
+  {
+    "id": "q25",
+    "topic": "Multiple Sufficient Causes",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for multiple sufficient causes?",
+    "choices": [
+      "B. The statute always establishes liability including causation.",
+      "D. Liability turns solely on the severity of harm.",
+      "C. Intent is required for negligence in all cases.",
+      "A. When each negligent act is sufficient, treat each as an actual cause despite but‑for’s failure."
+    ],
+    "answer_index": 3,
+    "explanation": "When each negligent act is sufficient, treat each as an actual cause despite but‑for’s failure."
+  },
+  {
+    "id": "q26",
+    "topic": "Negligence Per Se",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for negligence per se?",
+    "choices": [
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation.",
+      "A. Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm.",
+      "D. Liability turns solely on the severity of harm."
+    ],
+    "answer_index": 2,
+    "explanation": "Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm."
+  },
+  {
+    "id": "q27",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for res ipsa loquitur?",
+    "choices": [
+      "B. The statute always establishes liability including causation.",
+      "D. Liability turns solely on the severity of harm.",
+      "A. The accident itself permits an inference of negligence when it ordinarily does not occur without negligence.",
+      "C. Intent is required for negligence in all cases."
+    ],
+    "answer_index": 2,
+    "explanation": "The accident itself permits an inference of negligence when it ordinarily does not occur without negligence."
+  },
+  {
+    "id": "q28",
+    "topic": "Market Share Liability",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for market share liability?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "A. Allocate damages to each manufacturer by market share when specific tortfeasor cannot be identified (DES-type cases).",
+      "B. The statute always establishes liability including causation.",
+      "C. Intent is required for negligence in all cases."
+    ],
+    "answer_index": 1,
+    "explanation": "Allocate damages to each manufacturer by market share when specific tortfeasor cannot be identified (DES-type cases)."
+  },
+  {
+    "id": "q29",
+    "topic": "Multiple Sufficient Causes",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for multiple sufficient causes?",
+    "choices": [
+      "B. The statute always establishes liability including causation.",
+      "D. Liability turns solely on the severity of harm.",
+      "A. When each negligent act is sufficient, treat each as an actual cause despite but‑for’s failure.",
+      "C. Intent is required for negligence in all cases."
+    ],
+    "answer_index": 2,
+    "explanation": "When each negligent act is sufficient, treat each as an actual cause despite but‑for’s failure."
+  },
+  {
+    "id": "q30",
+    "topic": "Market Share Liability",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for market share liability?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation.",
+      "A. Allocate damages to each manufacturer by market share when specific tortfeasor cannot be identified (DES-type cases)."
+    ],
+    "answer_index": 3,
+    "explanation": "Allocate damages to each manufacturer by market share when specific tortfeasor cannot be identified (DES-type cases)."
+  },
+  {
+    "id": "q31",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for res ipsa loquitur?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "B. The statute always establishes liability including causation.",
+      "A. The accident itself permits an inference of negligence when it ordinarily does not occur without negligence.",
+      "C. Intent is required for negligence in all cases."
+    ],
+    "answer_index": 2,
+    "explanation": "The accident itself permits an inference of negligence when it ordinarily does not occur without negligence."
+  },
+  {
+    "id": "q32",
+    "topic": "Negligence Per Se",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for negligence per se?",
+    "choices": [
+      "C. Intent is required for negligence in all cases.",
+      "D. Liability turns solely on the severity of harm.",
+      "B. The statute always establishes liability including causation.",
+      "A. Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm."
+    ],
+    "answer_index": 3,
+    "explanation": "Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm."
+  },
+  {
+    "id": "q33",
+    "topic": "Negligence Per Se",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for negligence per se?",
+    "choices": [
+      "A. Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm.",
+      "B. The statute always establishes liability including causation.",
+      "D. Liability turns solely on the severity of harm.",
+      "C. Intent is required for negligence in all cases."
+    ],
+    "answer_index": 0,
+    "explanation": "Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm."
+  },
+  {
+    "id": "q34",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for res ipsa loquitur?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "A. The accident itself permits an inference of negligence when it ordinarily does not occur without negligence.",
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 1,
+    "explanation": "The accident itself permits an inference of negligence when it ordinarily does not occur without negligence."
+  },
+  {
+    "id": "q35",
+    "topic": "Duty",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for duty?",
+    "choices": [
+      "C. Intent is required for negligence in all cases.",
+      "A. No general duty to rescue; exceptions include creating the peril, special relationships, or voluntary undertakings.",
+      "D. Liability turns solely on the severity of harm.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 1,
+    "explanation": "No general duty to rescue; exceptions include creating the peril, special relationships, or voluntary undertakings."
+  },
+  {
+    "id": "q36",
+    "topic": "Multiple Sufficient Causes",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for multiple sufficient causes?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation.",
+      "A. When each negligent act is sufficient, treat each as an actual cause despite but‑for’s failure."
+    ],
+    "answer_index": 3,
+    "explanation": "When each negligent act is sufficient, treat each as an actual cause despite but‑for’s failure."
+  },
+  {
+    "id": "q37",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for proximate cause (scope‑of‑risk)?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "B. The statute always establishes liability including causation.",
+      "A. Liability limited to harms within the scope of risks that made the conduct negligent.",
+      "C. Intent is required for negligence in all cases."
+    ],
+    "answer_index": 2,
+    "explanation": "Liability limited to harms within the scope of risks that made the conduct negligent."
+  },
+  {
+    "id": "q38",
+    "topic": "Joint & Several Liability",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for joint & several liability?",
+    "choices": [
+      "A. For indivisible harm, plaintiff may recover all damages from any one defendant; contribution reallocates shares.",
+      "D. Liability turns solely on the severity of harm.",
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 0,
+    "explanation": "For indivisible harm, plaintiff may recover all damages from any one defendant; contribution reallocates shares."
+  },
+  {
+    "id": "q39",
+    "topic": "Breach",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for breach?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "A. Measured against the reasonable person; custom is evidence but not conclusive.",
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 1,
+    "explanation": "Measured against the reasonable person; custom is evidence but not conclusive."
+  },
+  {
+    "id": "q40",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for actual cause (but‑for)?",
+    "choices": [
+      "A. But‑for asks whether the harm would have occurred absent the breach.",
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation.",
+      "D. Liability turns solely on the severity of harm."
+    ],
+    "answer_index": 0,
+    "explanation": "But‑for asks whether the harm would have occurred absent the breach."
+  },
+  {
+    "id": "q41",
+    "topic": "Negligence Per Se",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for negligence per se?",
+    "choices": [
+      "A. Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm.",
+      "D. Liability turns solely on the severity of harm.",
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 0,
+    "explanation": "Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm."
+  },
+  {
+    "id": "q42",
+    "topic": "Duty",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for duty?",
+    "choices": [
+      "C. Intent is required for negligence in all cases.",
+      "D. Liability turns solely on the severity of harm.",
+      "A. No general duty to rescue; exceptions include creating the peril, special relationships, or voluntary undertakings.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 2,
+    "explanation": "No general duty to rescue; exceptions include creating the peril, special relationships, or voluntary undertakings."
+  },
+  {
+    "id": "q43",
+    "topic": "Market Share Liability",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for market share liability?",
+    "choices": [
+      "B. The statute always establishes liability including causation.",
+      "D. Liability turns solely on the severity of harm.",
+      "A. Allocate damages to each manufacturer by market share when specific tortfeasor cannot be identified (DES-type cases).",
+      "C. Intent is required for negligence in all cases."
+    ],
+    "answer_index": 2,
+    "explanation": "Allocate damages to each manufacturer by market share when specific tortfeasor cannot be identified (DES-type cases)."
+  },
+  {
+    "id": "q44",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for res ipsa loquitur?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "B. The statute always establishes liability including causation.",
+      "A. The accident itself permits an inference of negligence when it ordinarily does not occur without negligence.",
+      "C. Intent is required for negligence in all cases."
+    ],
+    "answer_index": 2,
+    "explanation": "The accident itself permits an inference of negligence when it ordinarily does not occur without negligence."
+  },
+  {
+    "id": "q45",
+    "topic": "Market Share Liability",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for market share liability?",
+    "choices": [
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation.",
+      "A. Allocate damages to each manufacturer by market share when specific tortfeasor cannot be identified (DES-type cases).",
+      "D. Liability turns solely on the severity of harm."
+    ],
+    "answer_index": 2,
+    "explanation": "Allocate damages to each manufacturer by market share when specific tortfeasor cannot be identified (DES-type cases)."
+  },
+  {
+    "id": "q46",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for actual cause (but‑for)?",
+    "choices": [
+      "A. But‑for asks whether the harm would have occurred absent the breach.",
+      "D. Liability turns solely on the severity of harm.",
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 0,
+    "explanation": "But‑for asks whether the harm would have occurred absent the breach."
+  },
+  {
+    "id": "q47",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for res ipsa loquitur?",
+    "choices": [
+      "A. The accident itself permits an inference of negligence when it ordinarily does not occur without negligence.",
+      "B. The statute always establishes liability including causation.",
+      "C. Intent is required for negligence in all cases.",
+      "D. Liability turns solely on the severity of harm."
+    ],
+    "answer_index": 0,
+    "explanation": "The accident itself permits an inference of negligence when it ordinarily does not occur without negligence."
+  },
+  {
+    "id": "q48",
+    "topic": "Joint & Several Liability",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for joint & several liability?",
+    "choices": [
+      "C. Intent is required for negligence in all cases.",
+      "D. Liability turns solely on the severity of harm.",
+      "A. For indivisible harm, plaintiff may recover all damages from any one defendant; contribution reallocates shares.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 2,
+    "explanation": "For indivisible harm, plaintiff may recover all damages from any one defendant; contribution reallocates shares."
+  },
+  {
+    "id": "q49",
+    "topic": "Breach",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for breach?",
+    "choices": [
+      "B. The statute always establishes liability including causation.",
+      "C. Intent is required for negligence in all cases.",
+      "D. Liability turns solely on the severity of harm.",
+      "A. Measured against the reasonable person; custom is evidence but not conclusive."
+    ],
+    "answer_index": 3,
+    "explanation": "Measured against the reasonable person; custom is evidence but not conclusive."
+  },
+  {
+    "id": "q50",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for actual cause (but‑for)?",
+    "choices": [
+      "B. The statute always establishes liability including causation.",
+      "A. But‑for asks whether the harm would have occurred absent the breach.",
+      "C. Intent is required for negligence in all cases.",
+      "D. Liability turns solely on the severity of harm."
+    ],
+    "answer_index": 1,
+    "explanation": "But‑for asks whether the harm would have occurred absent the breach."
+  },
+  {
+    "id": "q51",
+    "topic": "Market Share Liability",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for market share liability?",
+    "choices": [
+      "A. Allocate damages to each manufacturer by market share when specific tortfeasor cannot be identified (DES-type cases).",
+      "B. The statute always establishes liability including causation.",
+      "C. Intent is required for negligence in all cases.",
+      "D. Liability turns solely on the severity of harm."
+    ],
+    "answer_index": 0,
+    "explanation": "Allocate damages to each manufacturer by market share when specific tortfeasor cannot be identified (DES-type cases)."
+  },
+  {
+    "id": "q52",
+    "topic": "Negligence Per Se",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for negligence per se?",
+    "choices": [
+      "B. The statute always establishes liability including causation.",
+      "A. Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm.",
+      "D. Liability turns solely on the severity of harm.",
+      "C. Intent is required for negligence in all cases."
+    ],
+    "answer_index": 1,
+    "explanation": "Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm."
+  },
+  {
+    "id": "q53",
+    "topic": "Breach",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for breach?",
+    "choices": [
+      "A. Measured against the reasonable person; custom is evidence but not conclusive.",
+      "B. The statute always establishes liability including causation.",
+      "D. Liability turns solely on the severity of harm.",
+      "C. Intent is required for negligence in all cases."
+    ],
+    "answer_index": 0,
+    "explanation": "Measured against the reasonable person; custom is evidence but not conclusive."
+  },
+  {
+    "id": "q54",
+    "topic": "Breach",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for breach?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "A. Measured against the reasonable person; custom is evidence but not conclusive.",
+      "B. The statute always establishes liability including causation.",
+      "C. Intent is required for negligence in all cases."
+    ],
+    "answer_index": 1,
+    "explanation": "Measured against the reasonable person; custom is evidence but not conclusive."
+  },
+  {
+    "id": "q55",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for proximate cause (scope‑of‑risk)?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "B. The statute always establishes liability including causation.",
+      "C. Intent is required for negligence in all cases.",
+      "A. Liability limited to harms within the scope of risks that made the conduct negligent."
+    ],
+    "answer_index": 3,
+    "explanation": "Liability limited to harms within the scope of risks that made the conduct negligent."
+  },
+  {
+    "id": "q56",
+    "topic": "Negligence Per Se",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for negligence per se?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "A. Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm.",
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 1,
+    "explanation": "Statutory violation can set the standard of care for breach if the statute protects the class and the type of harm."
+  },
+  {
+    "id": "q57",
+    "topic": "Alternative Liability",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for alternative liability?",
+    "choices": [
+      "C. Intent is required for negligence in all cases.",
+      "D. Liability turns solely on the severity of harm.",
+      "A. If multiple negligent defendants and only one caused the harm, burden shifts to defendants to disprove causation.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 2,
+    "explanation": "If multiple negligent defendants and only one caused the harm, burden shifts to defendants to disprove causation."
+  },
+  {
+    "id": "q58",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for actual cause (but‑for)?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "B. The statute always establishes liability including causation.",
+      "C. Intent is required for negligence in all cases.",
+      "A. But‑for asks whether the harm would have occurred absent the breach."
+    ],
+    "answer_index": 3,
+    "explanation": "But‑for asks whether the harm would have occurred absent the breach."
+  },
+  {
+    "id": "q59",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for proximate cause (scope‑of‑risk)?",
+    "choices": [
+      "C. Intent is required for negligence in all cases.",
+      "B. The statute always establishes liability including causation.",
+      "D. Liability turns solely on the severity of harm.",
+      "A. Liability limited to harms within the scope of risks that made the conduct negligent."
+    ],
+    "answer_index": 3,
+    "explanation": "Liability limited to harms within the scope of risks that made the conduct negligent."
+  },
+  {
+    "id": "q60",
+    "topic": "Alternative Liability",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the rule for alternative liability?",
+    "choices": [
+      "D. Liability turns solely on the severity of harm.",
+      "C. Intent is required for negligence in all cases.",
+      "A. If multiple negligent defendants and only one caused the harm, burden shifts to defendants to disprove causation.",
+      "B. The statute always establishes liability including causation."
+    ],
+    "answer_index": 2,
+    "explanation": "If multiple negligent defendants and only one caused the harm, burden shifts to defendants to disprove causation."
+  },
+  {
+    "id": "q61",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "hard",
+    "question": "Doctor negligently fails to test for a condition that would not have been treatable even if timely diagnosed. Actual cause?",
+    "choices": [
+      "D. Satisfied because the failure increased emotional distress.",
+      "A. Satisfied because the doctor was negligent.",
+      "C. Satisfied whenever a medical standard is breached.",
+      "B. Not satisfied because the injury would have occurred anyway."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Actual Cause (But‑For): Not satisfied because the injury would have occurred anyway."
+  },
+  {
+    "id": "q62",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "hard",
+    "question": "Doctor negligently fails to test for a condition that would not have been treatable even if timely diagnosed. Actual cause?",
+    "choices": [
+      "C. Satisfied whenever a medical standard is breached.",
+      "D. Satisfied because the failure increased emotional distress.",
+      "B. Not satisfied because the injury would have occurred anyway.",
+      "A. Satisfied because the doctor was negligent."
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Actual Cause (But‑For): Not satisfied because the injury would have occurred anyway."
+  },
+  {
+    "id": "q63",
+    "topic": "Breach",
+    "difficulty": "hard",
+    "question": "A cheap guard would virtually eliminate a severe risk; industry custom is not to install it. On breach, a jury may:",
+    "choices": [
+      "C. Find breach despite contrary custom.",
+      "B. Defer to expert testimony only",
+      "D. Find no breach because harms were rare",
+      "A. Treat custom as conclusive of no breach"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Breach: Find breach despite contrary custom."
+  },
+  {
+    "id": "q64",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "B. Damages apportioned by each defendant’s market share over the relevant period.",
+      "D. No recovery absent identification of the manufacturer",
+      "C. Joint & several liability among all manufacturers",
+      "A. Equal shares across all defendants"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q65",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "hard",
+    "question": "During routine surgery under anesthesia, P awakens with an arm fracture unrelated to the procedure. Best use of res ipsa?",
+    "choices": [
+      "B. Permits an inference of negligence and may shift the burden of production to defendants with control of the instrumentalities.",
+      "D. Is unavailable in medical contexts",
+      "A. Conclusively proves negligence per se",
+      "C. Shifts the ultimate burden of persuasion on all elements"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Res Ipsa Loquitur: Permits an inference of negligence and may shift the burden of production to defendants with control of the instrumentalities."
+  },
+  {
+    "id": "q66",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "hard",
+    "question": "Doctor negligently fails to test for a condition that would not have been treatable even if timely diagnosed. Actual cause?",
+    "choices": [
+      "D. Satisfied because the failure increased emotional distress.",
+      "C. Satisfied whenever a medical standard is breached.",
+      "B. Not satisfied because the injury would have occurred anyway.",
+      "A. Satisfied because the doctor was negligent."
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Actual Cause (But‑For): Not satisfied because the injury would have occurred anyway."
+  },
+  {
+    "id": "q67",
+    "topic": "Negligence Per Se",
+    "difficulty": "hard",
+    "question": "Statute requires backup alarms on heavy machinery to protect pedestrians. D’s loader lacks an alarm and hits P. Effect of negligence per se?",
+    "choices": [
+      "A. Automatically establishes liability, including causation",
+      "D. Only admissible as evidence, never dispositive",
+      "C. Inapplicable because only regulations can set standards",
+      "B. Establishes breach if P is within the protected class and the harm is the type the statute aims to prevent; causation still required."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Negligence Per Se: Establishes breach if P is within the protected class and the harm is the type the statute aims to prevent; causation still required."
+  },
+  {
+    "id": "q68",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "A. Equal shares across all defendants",
+      "C. Joint & several liability among all manufacturers",
+      "D. No recovery absent identification of the manufacturer",
+      "B. Damages apportioned by each defendant’s market share over the relevant period."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q69",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "C. Joint & several liability among all manufacturers",
+      "A. Equal shares across all defendants",
+      "D. No recovery absent identification of the manufacturer",
+      "B. Damages apportioned by each defendant’s market share over the relevant period."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q70",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "hard",
+    "question": "Doctor negligently fails to test for a condition that would not have been treatable even if timely diagnosed. Actual cause?",
+    "choices": [
+      "B. Not satisfied because the injury would have occurred anyway.",
+      "C. Satisfied whenever a medical standard is breached.",
+      "D. Satisfied because the failure increased emotional distress.",
+      "A. Satisfied because the doctor was negligent."
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Actual Cause (But‑For): Not satisfied because the injury would have occurred anyway."
+  },
+  {
+    "id": "q71",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "B. Damages apportioned by each defendant’s market share over the relevant period.",
+      "D. No recovery absent identification of the manufacturer",
+      "C. Joint & several liability among all manufacturers",
+      "A. Equal shares across all defendants"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q72",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "C. Joint & several liability among all manufacturers",
+      "B. Damages apportioned by each defendant’s market share over the relevant period.",
+      "A. Equal shares across all defendants",
+      "D. No recovery absent identification of the manufacturer"
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q73",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "hard",
+    "question": "Doctor negligently fails to test for a condition that would not have been treatable even if timely diagnosed. Actual cause?",
+    "choices": [
+      "D. Satisfied because the failure increased emotional distress.",
+      "A. Satisfied because the doctor was negligent.",
+      "C. Satisfied whenever a medical standard is breached.",
+      "B. Not satisfied because the injury would have occurred anyway."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Actual Cause (But‑For): Not satisfied because the injury would have occurred anyway."
+  },
+  {
+    "id": "q74",
+    "topic": "Negligence Per Se",
+    "difficulty": "hard",
+    "question": "Statute requires backup alarms on heavy machinery to protect pedestrians. D’s loader lacks an alarm and hits P. Effect of negligence per se?",
+    "choices": [
+      "B. Establishes breach if P is within the protected class and the harm is the type the statute aims to prevent; causation still required.",
+      "C. Inapplicable because only regulations can set standards",
+      "A. Automatically establishes liability, including causation",
+      "D. Only admissible as evidence, never dispositive"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Negligence Per Se: Establishes breach if P is within the protected class and the harm is the type the statute aims to prevent; causation still required."
+  },
+  {
+    "id": "q75",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "hard",
+    "question": "Store leaves flammable solvent near a doorway; a prankster tosses a match and an expected flash fire injures P. The best result is:",
+    "choices": [
+      "B. Liability automatically because damages are high.",
+      "A. No liability; prankster acts always supersede.",
+      "D. No liability; only market share cases impose liability.",
+      "C. Liability likely because fire was within the scope of risk created by the negligent storage."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Proximate Cause (Scope‑of‑Risk): Liability likely because fire was within the scope of risk created by the negligent storage."
+  },
+  {
+    "id": "q76",
+    "topic": "Negligence Per Se",
+    "difficulty": "hard",
+    "question": "Statute requires backup alarms on heavy machinery to protect pedestrians. D’s loader lacks an alarm and hits P. Effect of negligence per se?",
+    "choices": [
+      "A. Automatically establishes liability, including causation",
+      "C. Inapplicable because only regulations can set standards",
+      "D. Only admissible as evidence, never dispositive",
+      "B. Establishes breach if P is within the protected class and the harm is the type the statute aims to prevent; causation still required."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Negligence Per Se: Establishes breach if P is within the protected class and the harm is the type the statute aims to prevent; causation still required."
+  },
+  {
+    "id": "q77",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "C. Joint & several liability among all manufacturers",
+      "A. Equal shares across all defendants",
+      "B. Damages apportioned by each defendant’s market share over the relevant period.",
+      "D. No recovery absent identification of the manufacturer"
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q78",
+    "topic": "Alternative Liability",
+    "difficulty": "hard",
+    "question": "Three negligent shooters fire simultaneously; one pellet injures P but the identity is unknown. Which doctrine helps P at trial?",
+    "choices": [
+      "D. Comparative negligence bars recovery",
+      "B. Alternative liability shifting the burden to defendants.",
+      "A. Market share liability",
+      "C. Res ipsa loquitur conclusively establishes breach and cause"
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Alternative Liability: Alternative liability shifting the burden to defendants."
+  },
+  {
+    "id": "q79",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "hard",
+    "question": "Doctor negligently fails to test for a condition that would not have been treatable even if timely diagnosed. Actual cause?",
+    "choices": [
+      "A. Satisfied because the doctor was negligent.",
+      "B. Not satisfied because the injury would have occurred anyway.",
+      "C. Satisfied whenever a medical standard is breached.",
+      "D. Satisfied because the failure increased emotional distress."
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Actual Cause (But‑For): Not satisfied because the injury would have occurred anyway."
+  },
+  {
+    "id": "q80",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "hard",
+    "question": "Store leaves flammable solvent near a doorway; a prankster tosses a match and an expected flash fire injures P. The best result is:",
+    "choices": [
+      "A. No liability; prankster acts always supersede.",
+      "B. Liability automatically because damages are high.",
+      "D. No liability; only market share cases impose liability.",
+      "C. Liability likely because fire was within the scope of risk created by the negligent storage."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Proximate Cause (Scope‑of‑Risk): Liability likely because fire was within the scope of risk created by the negligent storage."
+  },
+  {
+    "id": "q81",
+    "topic": "Alternative Liability",
+    "difficulty": "hard",
+    "question": "Three negligent shooters fire simultaneously; one pellet injures P but the identity is unknown. Which doctrine helps P at trial?",
+    "choices": [
+      "B. Alternative liability shifting the burden to defendants.",
+      "C. Res ipsa loquitur conclusively establishes breach and cause",
+      "A. Market share liability",
+      "D. Comparative negligence bars recovery"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Alternative Liability: Alternative liability shifting the burden to defendants."
+  },
+  {
+    "id": "q82",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "A. Equal shares across all defendants",
+      "C. Joint & several liability among all manufacturers",
+      "B. Damages apportioned by each defendant’s market share over the relevant period.",
+      "D. No recovery absent identification of the manufacturer"
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q83",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "hard",
+    "question": "During routine surgery under anesthesia, P awakens with an arm fracture unrelated to the procedure. Best use of res ipsa?",
+    "choices": [
+      "D. Is unavailable in medical contexts",
+      "C. Shifts the ultimate burden of persuasion on all elements",
+      "A. Conclusively proves negligence per se",
+      "B. Permits an inference of negligence and may shift the burden of production to defendants with control of the instrumentalities."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Res Ipsa Loquitur: Permits an inference of negligence and may shift the burden of production to defendants with control of the instrumentalities."
+  },
+  {
+    "id": "q84",
+    "topic": "Duty",
+    "difficulty": "hard",
+    "question": "Bystander sees a child fall into a shallow pond. No special relationship exists, and the bystander did not cause the peril. Duty to rescue?",
+    "choices": [
+      "B. No general duty to rescue absent an exception.",
+      "D. Yes, because children receive special protection in negligence",
+      "A. Yes, always",
+      "C. Yes, because rescue would be easy"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Duty: No general duty to rescue absent an exception."
+  },
+  {
+    "id": "q85",
+    "topic": "Alternative Liability",
+    "difficulty": "hard",
+    "question": "Three negligent shooters fire simultaneously; one pellet injures P but the identity is unknown. Which doctrine helps P at trial?",
+    "choices": [
+      "C. Res ipsa loquitur conclusively establishes breach and cause",
+      "B. Alternative liability shifting the burden to defendants.",
+      "D. Comparative negligence bars recovery",
+      "A. Market share liability"
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Alternative Liability: Alternative liability shifting the burden to defendants."
+  },
+  {
+    "id": "q86",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "hard",
+    "question": "Store leaves flammable solvent near a doorway; a prankster tosses a match and an expected flash fire injures P. The best result is:",
+    "choices": [
+      "D. No liability; only market share cases impose liability.",
+      "A. No liability; prankster acts always supersede.",
+      "B. Liability automatically because damages are high.",
+      "C. Liability likely because fire was within the scope of risk created by the negligent storage."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Proximate Cause (Scope‑of‑Risk): Liability likely because fire was within the scope of risk created by the negligent storage."
+  },
+  {
+    "id": "q87",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "hard",
+    "question": "Store leaves flammable solvent near a doorway; a prankster tosses a match and an expected flash fire injures P. The best result is:",
+    "choices": [
+      "D. No liability; only market share cases impose liability.",
+      "A. No liability; prankster acts always supersede.",
+      "B. Liability automatically because damages are high.",
+      "C. Liability likely because fire was within the scope of risk created by the negligent storage."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Proximate Cause (Scope‑of‑Risk): Liability likely because fire was within the scope of risk created by the negligent storage."
+  },
+  {
+    "id": "q88",
+    "topic": "Breach",
+    "difficulty": "hard",
+    "question": "A cheap guard would virtually eliminate a severe risk; industry custom is not to install it. On breach, a jury may:",
+    "choices": [
+      "D. Find no breach because harms were rare",
+      "B. Defer to expert testimony only",
+      "C. Find breach despite contrary custom.",
+      "A. Treat custom as conclusive of no breach"
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Breach: Find breach despite contrary custom."
+  },
+  {
+    "id": "q89",
+    "topic": "Alternative Liability",
+    "difficulty": "hard",
+    "question": "Three negligent shooters fire simultaneously; one pellet injures P but the identity is unknown. Which doctrine helps P at trial?",
+    "choices": [
+      "A. Market share liability",
+      "D. Comparative negligence bars recovery",
+      "C. Res ipsa loquitur conclusively establishes breach and cause",
+      "B. Alternative liability shifting the burden to defendants."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Alternative Liability: Alternative liability shifting the burden to defendants."
+  },
+  {
+    "id": "q90",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "A. Equal shares across all defendants",
+      "C. Joint & several liability among all manufacturers",
+      "B. Damages apportioned by each defendant’s market share over the relevant period.",
+      "D. No recovery absent identification of the manufacturer"
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q91",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "hard",
+    "question": "Store leaves flammable solvent near a doorway; a prankster tosses a match and an expected flash fire injures P. The best result is:",
+    "choices": [
+      "D. No liability; only market share cases impose liability.",
+      "B. Liability automatically because damages are high.",
+      "A. No liability; prankster acts always supersede.",
+      "C. Liability likely because fire was within the scope of risk created by the negligent storage."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Proximate Cause (Scope‑of‑Risk): Liability likely because fire was within the scope of risk created by the negligent storage."
+  },
+  {
+    "id": "q92",
+    "topic": "Joint & Several Liability",
+    "difficulty": "hard",
+    "question": "Two negligent drivers strike P nearly simultaneously, causing indivisible harm. P sues D1 only and collects fully. D1’s recourse?",
+    "choices": [
+      "B. Contribution against D2 for D2’s share.",
+      "D. Collateral estoppel bars contribution",
+      "C. Indemnity is automatic and total",
+      "A. None; double recovery allowed"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Joint & Several Liability: Contribution against D2 for D2’s share."
+  },
+  {
+    "id": "q93",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "D. No recovery absent identification of the manufacturer",
+      "B. Damages apportioned by each defendant’s market share over the relevant period.",
+      "A. Equal shares across all defendants",
+      "C. Joint & several liability among all manufacturers"
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q94",
+    "topic": "Joint & Several Liability",
+    "difficulty": "hard",
+    "question": "Two negligent drivers strike P nearly simultaneously, causing indivisible harm. P sues D1 only and collects fully. D1’s recourse?",
+    "choices": [
+      "C. Indemnity is automatic and total",
+      "B. Contribution against D2 for D2’s share.",
+      "A. None; double recovery allowed",
+      "D. Collateral estoppel bars contribution"
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Joint & Several Liability: Contribution against D2 for D2’s share."
+  },
+  {
+    "id": "q95",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "hard",
+    "question": "Store leaves flammable solvent near a doorway; a prankster tosses a match and an expected flash fire injures P. The best result is:",
+    "choices": [
+      "A. No liability; prankster acts always supersede.",
+      "C. Liability likely because fire was within the scope of risk created by the negligent storage.",
+      "B. Liability automatically because damages are high.",
+      "D. No liability; only market share cases impose liability."
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Proximate Cause (Scope‑of‑Risk): Liability likely because fire was within the scope of risk created by the negligent storage."
+  },
+  {
+    "id": "q96",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "hard",
+    "question": "Doctor negligently fails to test for a condition that would not have been treatable even if timely diagnosed. Actual cause?",
+    "choices": [
+      "B. Not satisfied because the injury would have occurred anyway.",
+      "D. Satisfied because the failure increased emotional distress.",
+      "C. Satisfied whenever a medical standard is breached.",
+      "A. Satisfied because the doctor was negligent."
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Actual Cause (But‑For): Not satisfied because the injury would have occurred anyway."
+  },
+  {
+    "id": "q97",
+    "topic": "Alternative Liability",
+    "difficulty": "hard",
+    "question": "Three negligent shooters fire simultaneously; one pellet injures P but the identity is unknown. Which doctrine helps P at trial?",
+    "choices": [
+      "A. Market share liability",
+      "D. Comparative negligence bars recovery",
+      "B. Alternative liability shifting the burden to defendants.",
+      "C. Res ipsa loquitur conclusively establishes breach and cause"
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Alternative Liability: Alternative liability shifting the burden to defendants."
+  },
+  {
+    "id": "q98",
+    "topic": "Negligence Per Se",
+    "difficulty": "hard",
+    "question": "Statute requires backup alarms on heavy machinery to protect pedestrians. D’s loader lacks an alarm and hits P. Effect of negligence per se?",
+    "choices": [
+      "D. Only admissible as evidence, never dispositive",
+      "A. Automatically establishes liability, including causation",
+      "B. Establishes breach if P is within the protected class and the harm is the type the statute aims to prevent; causation still required.",
+      "C. Inapplicable because only regulations can set standards"
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Negligence Per Se: Establishes breach if P is within the protected class and the harm is the type the statute aims to prevent; causation still required."
+  },
+  {
+    "id": "q99",
+    "topic": "Breach",
+    "difficulty": "hard",
+    "question": "A cheap guard would virtually eliminate a severe risk; industry custom is not to install it. On breach, a jury may:",
+    "choices": [
+      "A. Treat custom as conclusive of no breach",
+      "C. Find breach despite contrary custom.",
+      "D. Find no breach because harms were rare",
+      "B. Defer to expert testimony only"
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Breach: Find breach despite contrary custom."
+  },
+  {
+    "id": "q100",
+    "topic": "Breach",
+    "difficulty": "hard",
+    "question": "A cheap guard would virtually eliminate a severe risk; industry custom is not to install it. On breach, a jury may:",
+    "choices": [
+      "A. Treat custom as conclusive of no breach",
+      "C. Find breach despite contrary custom.",
+      "D. Find no breach because harms were rare",
+      "B. Defer to expert testimony only"
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Breach: Find breach despite contrary custom."
+  },
+  {
+    "id": "q101",
+    "topic": "Alternative Liability",
+    "difficulty": "hard",
+    "question": "Three negligent shooters fire simultaneously; one pellet injures P but the identity is unknown. Which doctrine helps P at trial?",
+    "choices": [
+      "A. Market share liability",
+      "D. Comparative negligence bars recovery",
+      "B. Alternative liability shifting the burden to defendants.",
+      "C. Res ipsa loquitur conclusively establishes breach and cause"
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Alternative Liability: Alternative liability shifting the burden to defendants."
+  },
+  {
+    "id": "q102",
+    "topic": "Breach",
+    "difficulty": "hard",
+    "question": "A cheap guard would virtually eliminate a severe risk; industry custom is not to install it. On breach, a jury may:",
+    "choices": [
+      "C. Find breach despite contrary custom.",
+      "B. Defer to expert testimony only",
+      "D. Find no breach because harms were rare",
+      "A. Treat custom as conclusive of no breach"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Breach: Find breach despite contrary custom."
+  },
+  {
+    "id": "q103",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "D. No recovery absent identification of the manufacturer",
+      "A. Equal shares across all defendants",
+      "B. Damages apportioned by each defendant’s market share over the relevant period.",
+      "C. Joint & several liability among all manufacturers"
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q104",
+    "topic": "Breach",
+    "difficulty": "hard",
+    "question": "A cheap guard would virtually eliminate a severe risk; industry custom is not to install it. On breach, a jury may:",
+    "choices": [
+      "B. Defer to expert testimony only",
+      "C. Find breach despite contrary custom.",
+      "A. Treat custom as conclusive of no breach",
+      "D. Find no breach because harms were rare"
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Breach: Find breach despite contrary custom."
+  },
+  {
+    "id": "q105",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "hard",
+    "question": "Doctor negligently fails to test for a condition that would not have been treatable even if timely diagnosed. Actual cause?",
+    "choices": [
+      "C. Satisfied whenever a medical standard is breached.",
+      "B. Not satisfied because the injury would have occurred anyway.",
+      "A. Satisfied because the doctor was negligent.",
+      "D. Satisfied because the failure increased emotional distress."
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Actual Cause (But‑For): Not satisfied because the injury would have occurred anyway."
+  },
+  {
+    "id": "q106",
+    "topic": "Proximate Cause (Scope‑of‑Risk)",
+    "difficulty": "hard",
+    "question": "Store leaves flammable solvent near a doorway; a prankster tosses a match and an expected flash fire injures P. The best result is:",
+    "choices": [
+      "D. No liability; only market share cases impose liability.",
+      "A. No liability; prankster acts always supersede.",
+      "C. Liability likely because fire was within the scope of risk created by the negligent storage.",
+      "B. Liability automatically because damages are high."
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Proximate Cause (Scope‑of‑Risk): Liability likely because fire was within the scope of risk created by the negligent storage."
+  },
+  {
+    "id": "q107",
+    "topic": "Alternative Liability",
+    "difficulty": "hard",
+    "question": "Three negligent shooters fire simultaneously; one pellet injures P but the identity is unknown. Which doctrine helps P at trial?",
+    "choices": [
+      "B. Alternative liability shifting the burden to defendants.",
+      "A. Market share liability",
+      "C. Res ipsa loquitur conclusively establishes breach and cause",
+      "D. Comparative negligence bars recovery"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Alternative Liability: Alternative liability shifting the burden to defendants."
+  },
+  {
+    "id": "q108",
+    "topic": "Breach",
+    "difficulty": "hard",
+    "question": "A cheap guard would virtually eliminate a severe risk; industry custom is not to install it. On breach, a jury may:",
+    "choices": [
+      "A. Treat custom as conclusive of no breach",
+      "B. Defer to expert testimony only",
+      "D. Find no breach because harms were rare",
+      "C. Find breach despite contrary custom."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Breach: Find breach despite contrary custom."
+  },
+  {
+    "id": "q109",
+    "topic": "Alternative Liability",
+    "difficulty": "hard",
+    "question": "Three negligent shooters fire simultaneously; one pellet injures P but the identity is unknown. Which doctrine helps P at trial?",
+    "choices": [
+      "C. Res ipsa loquitur conclusively establishes breach and cause",
+      "D. Comparative negligence bars recovery",
+      "A. Market share liability",
+      "B. Alternative liability shifting the burden to defendants."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Alternative Liability: Alternative liability shifting the burden to defendants."
+  },
+  {
+    "id": "q110",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "hard",
+    "question": "During routine surgery under anesthesia, P awakens with an arm fracture unrelated to the procedure. Best use of res ipsa?",
+    "choices": [
+      "C. Shifts the ultimate burden of persuasion on all elements",
+      "D. Is unavailable in medical contexts",
+      "B. Permits an inference of negligence and may shift the burden of production to defendants with control of the instrumentalities.",
+      "A. Conclusively proves negligence per se"
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Res Ipsa Loquitur: Permits an inference of negligence and may shift the burden of production to defendants with control of the instrumentalities."
+  },
+  {
+    "id": "q111",
+    "topic": "Negligence Per Se",
+    "difficulty": "hard",
+    "question": "Statute requires backup alarms on heavy machinery to protect pedestrians. D’s loader lacks an alarm and hits P. Effect of negligence per se?",
+    "choices": [
+      "C. Inapplicable because only regulations can set standards",
+      "D. Only admissible as evidence, never dispositive",
+      "A. Automatically establishes liability, including causation",
+      "B. Establishes breach if P is within the protected class and the harm is the type the statute aims to prevent; causation still required."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Negligence Per Se: Establishes breach if P is within the protected class and the harm is the type the statute aims to prevent; causation still required."
+  },
+  {
+    "id": "q112",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "D. No recovery absent identification of the manufacturer",
+      "C. Joint & several liability among all manufacturers",
+      "A. Equal shares across all defendants",
+      "B. Damages apportioned by each defendant’s market share over the relevant period."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q113",
+    "topic": "Alternative Liability",
+    "difficulty": "hard",
+    "question": "Three negligent shooters fire simultaneously; one pellet injures P but the identity is unknown. Which doctrine helps P at trial?",
+    "choices": [
+      "D. Comparative negligence bars recovery",
+      "C. Res ipsa loquitur conclusively establishes breach and cause",
+      "B. Alternative liability shifting the burden to defendants.",
+      "A. Market share liability"
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Alternative Liability: Alternative liability shifting the burden to defendants."
+  },
+  {
+    "id": "q114",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "hard",
+    "question": "During routine surgery under anesthesia, P awakens with an arm fracture unrelated to the procedure. Best use of res ipsa?",
+    "choices": [
+      "C. Shifts the ultimate burden of persuasion on all elements",
+      "A. Conclusively proves negligence per se",
+      "D. Is unavailable in medical contexts",
+      "B. Permits an inference of negligence and may shift the burden of production to defendants with control of the instrumentalities."
+    ],
+    "answer_index": 3,
+    "explanation": "Apply Res Ipsa Loquitur: Permits an inference of negligence and may shift the burden of production to defendants with control of the instrumentalities."
+  },
+  {
+    "id": "q115",
+    "topic": "Res Ipsa Loquitur",
+    "difficulty": "hard",
+    "question": "During routine surgery under anesthesia, P awakens with an arm fracture unrelated to the procedure. Best use of res ipsa?",
+    "choices": [
+      "C. Shifts the ultimate burden of persuasion on all elements",
+      "B. Permits an inference of negligence and may shift the burden of production to defendants with control of the instrumentalities.",
+      "D. Is unavailable in medical contexts",
+      "A. Conclusively proves negligence per se"
+    ],
+    "answer_index": 1,
+    "explanation": "Apply Res Ipsa Loquitur: Permits an inference of negligence and may shift the burden of production to defendants with control of the instrumentalities."
+  },
+  {
+    "id": "q116",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "hard",
+    "question": "Doctor negligently fails to test for a condition that would not have been treatable even if timely diagnosed. Actual cause?",
+    "choices": [
+      "C. Satisfied whenever a medical standard is breached.",
+      "A. Satisfied because the doctor was negligent.",
+      "B. Not satisfied because the injury would have occurred anyway.",
+      "D. Satisfied because the failure increased emotional distress."
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Actual Cause (But‑For): Not satisfied because the injury would have occurred anyway."
+  },
+  {
+    "id": "q117",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "B. Damages apportioned by each defendant’s market share over the relevant period.",
+      "C. Joint & several liability among all manufacturers",
+      "D. No recovery absent identification of the manufacturer",
+      "A. Equal shares across all defendants"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q118",
+    "topic": "Joint & Several Liability",
+    "difficulty": "hard",
+    "question": "Two negligent drivers strike P nearly simultaneously, causing indivisible harm. P sues D1 only and collects fully. D1’s recourse?",
+    "choices": [
+      "D. Collateral estoppel bars contribution",
+      "C. Indemnity is automatic and total",
+      "B. Contribution against D2 for D2’s share.",
+      "A. None; double recovery allowed"
+    ],
+    "answer_index": 2,
+    "explanation": "Apply Joint & Several Liability: Contribution against D2 for D2’s share."
+  },
+  {
+    "id": "q119",
+    "topic": "Market Share Liability",
+    "difficulty": "hard",
+    "question": "Plaintiff cannot identify which of several identical manufacturers made the injurious drug taken by P’s mother. Appropriate apportionment?",
+    "choices": [
+      "B. Damages apportioned by each defendant’s market share over the relevant period.",
+      "C. Joint & several liability among all manufacturers",
+      "A. Equal shares across all defendants",
+      "D. No recovery absent identification of the manufacturer"
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Market Share Liability: Damages apportioned by each defendant’s market share over the relevant period."
+  },
+  {
+    "id": "q120",
+    "topic": "Actual Cause (But‑For)",
+    "difficulty": "hard",
+    "question": "Doctor negligently fails to test for a condition that would not have been treatable even if timely diagnosed. Actual cause?",
+    "choices": [
+      "B. Not satisfied because the injury would have occurred anyway.",
+      "D. Satisfied because the failure increased emotional distress.",
+      "A. Satisfied because the doctor was negligent.",
+      "C. Satisfied whenever a medical standard is breached."
+    ],
+    "answer_index": 0,
+    "explanation": "Apply Actual Cause (But‑For): Not satisfied because the injury would have occurred anyway."
   }
 ]
